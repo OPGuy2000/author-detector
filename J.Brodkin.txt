@@ -1,0 +1,246 @@
+Hackers seek ransom after getting SSNs, banking info from state gov't portal
+
+
+Hackers trying to extort the Rhode Island government infiltrated the state's public benefits system, causing state officials to shut down online services that let residents apply for Medicaid and other assistance programs.
+
+
+"As part of this investigation today, we discovered that within the Rhode Island Bridges system, a cybercriminal had installed dangerous malware that constituted an urgent threat," Governor Dan McKee said at a Friday night press conference, according to The Providence Journal. "That is why tonight we have shut down the system. That means customers will temporarily not be able to access any customer portal related to the services on Rhode Island Bridges."
+
+
+The vendor "Deloitte confirmed that there is a high probability that a cybercriminal has obtained files with personally identifiable information from RIBridges," McKee's office said in a press release. Rhode Island has "proactively taken the system offline so that the State and Deloitte can work to address the threat and restore the system as quickly as possible."
+
+
+The state decided to sign a new three-year contract with Deloitte in 2021 despite its earlier failure to build a stable system. RIBridges, originally called Unified Health Infrastructure Project (UHIP), launched in 2016 and "suffered from massive cost overruns before launch and catastrophic failures afterward," WPRI wrote in 2021.
+
+
+The hack disclosed on Friday has already inspired a class-action lawsuit against Deloitte. The lawsuit was filed in a federal court yesterday.
+
+
+Many state programs impacted
+Information obtained by hackers "may include names, addresses, dates of birth and Social Security numbers, as well as certain banking information," the governor's office said Friday, noting that analysis of the breach was not complete.
+
+
+"To the best of our knowledge, any individual who has received or applied for health coverage and/or health and human services programs or benefits could be impacted by this leak," the governor's office said. This includes Medicaid, Supplemental Nutrition Assistance Program (SNAP), Temporary Assistance for Needy Families (TANF), Child Care Assistance Program (CCAP), health coverage purchased through HealthSource RI, Rhode Island Works (RIW), Long-Term Services and Supports (LTSS), and the General Public Assistance (GPA) Program.
+
+
+An updates page said the state and Deloitte are still "focused on addressing the threat" and aren't yet saying when the RIBridges system will be restored. "We understand this is an alarming situation for our customers. Current customers will not be able to log into their account through the portal or the mobile app while the system is offline... Rhode Islanders seeking to apply for benefits can still submit a paper application."
+
+
+Residents can still find the mail-in applications for health coverage and other forms of assistance at this webpage.
+
+
+"Extortion-type activity"
+At a press conference, Rhode Island Chief Digital Officer Brian Tardiff indicated that hackers are demanding money from the state but didn't reveal the amount sought. "This is not a ransomware attack where there has been malware executed within the environment, this is more of an extortion-type activity by this cybercriminal group," he said.
+
+
+Deloitte first informed the state of a "potential cyberattack" on December 5, but it wasn't yet clear whether any sensitive information was breached, the state updates page said. Federal law enforcement and state police were notified, and the state and Deloitte worked on assessing the threat and implementing additional security measures.
+
+
+The state said the hack wasn't disclosed publicly immediately after December 5 because "it was important, for security reasons, to keep this knowledge internal until we could secure the RIBridges system." Later, a hacker sent a screenshot showing file folders they'd accessed, and Deloitte found malicious code in the system.
+
+
+"On December 10, the State received confirmation from Deloitte that there had been a breach of the RIBridges system based on a screenshot of file folders sent by the hacker to Deloitte," the state said. "On December 11, Deloitte confirmed that there is a high probability that the implicated folders contain personally identifiable information from RIBridges. On December 13, Deloitte confirmed there was malicious code present in the system, and the State directed Deloitte to shut RIBridges down to remediate the threat. State police and federal law enforcement are involved in an advisory capacity and no further leads have been provided."
+
+
+The state said it will send letters to people whose personal information was compromised. The letters will explain how they can access free credit monitoring.
+
+
+Deloitte contracted with Experian to run a call center (phone number: 833-918-6603), but call center staff will only "be able to provide general information about the breach as well as steps customers can take now to protect their data. Unfortunately, as the analysis of the data involved is still happening, call center staff will not be able to confirm whether a particular individual's data is or is not included in the breach at this time."
+
+
+
+
+
+
+
+
+Elon Musk turns X's block button into a "glorified mute button"
+
+
+X, formerly Twitter, is now letting blocked users see posts made by the people who blocked them.
+
+
+"We're starting to launch the block function update," X's engineering team wrote yesterday. X previously said that after the change, "If your posts are set to public, accounts you have blocked will be able to view them, but they will not be able to engage (like, reply, repost, etc.)."
+
+
+To justify the change, X said the block functionality could previously be "used by users to share and hide harmful or private information about those they've blocked." The change will allow people who are blocked "to see if such behavior occurs... allowing for greater transparency," X said.
+
+
+X owner Elon Musk argued last year that "blocking public posts makes no sense. It needs to be deprecated in favor of a stronger form of mute."
+
+
+There were many angry responses to the change, both yesterday and previously, when X said it would be coming soon. While some users may only use blocking to avoid seeing accounts that are annoying, some X users said the policy could be harmful for people who use blocking as a safety measure.
+
+
+The new policy could help stalkers and other bad actors, some said. Blocked accounts could view, screenshot, and share content posted by the person who blocked them, some people pointed out. The block button is now "a glorified mute button," one user said.
+
+
+Blocked users can view and search for posts
+Before the change, X's support page on blocking accounts said blocked accounts cannot "view your posts when logged in on X (unless they report you, and your posts mention them," "find your posts in search when logged in on X," or "view a Moment you've created when logged in on X."
+
+
+Those limits are now removed from the support page. However, blocked accounts still cannot engage with your posts, follow you, send direct messages, add your X account to their lists, or tag you in a photo. As before, posts from blocked accounts will not appear in a user's timeline.
+
+
+It used to be easy to view tweets without being logged in. But last year, before Musk changed the platform name from Twitter to X, Twitter started blocking un-registered users from viewing tweets and user profiles. The change was apparently made to limit scraping, but also meant that people you blocked would have to use a different account to view your posts.
+
+
+Claire Waxman, the Victims' Commissioner in the London mayor's office, said the policy change "is a dangerous decision for a social media platform, and will have serious implications for victims—especially those being stalked—and their safety. Enabling blocked users to see posts is catering to abusers and stalkers, indulging and facilitating their behaviours."
+
+
+"I'm sure someone from twitter (elon) is arguing that block evasions were always possible from other accounts but the point is that friction matters!! making it easy for a creeper to creep is not a good thing!!" wrote Tracy Chou, founder and CEO of Block Party, which makes a browser extension with bulk blocking and other features for social networks.
+
+
+Some users questioned whether the new policy is allowable under the Apple and Google app store rules. Apple says that apps with user-generated content or social networking features must provide "the ability to block abusive users from the service," while Google says that apps allowing "interaction with specific users (for example, direct messaging, tagging, mentioning, etc.) must provide an in-app functionality for blocking users."
+
+
+
+
+
+
+
+
+Russia fines Google an impossible amount in attempt to end YouTube bans
+
+
+Russia has fined Google an amount that no entity on the planet could pay in hopes of getting YouTube to lift bans on Russian channels, including pro-Kremlin and state-run news outlets.
+
+
+The BBC wrote that a Russian court fined Google two undecillion rubles, which in dollar terms is $20,000,000,000,000,000,000,000,000,000,000,000. The amount "is far greater than the world's total GDP, which is estimated by the International Monetary Fund to be $110 trillion."
+
+
+The fine is apparently that large because it was issued several years ago and has been repeatedly doubling. An RBC news report this week provided details on the court case from an anonymous source.
+
+
+The Moscow Times writes, "According to RBC's sources, Google began accumulating daily penalties of 100,000 rubles in 2020 after the pro-government media outlets Tsargrad and RIA FAN won lawsuits against the company for blocking their YouTube channels. Those daily penalties have doubled each week, leading to the current overall fine of around 2 undecillion rubles."
+
+
+The Moscow Times is an independent news organization that moved its operations to Amsterdam in 2022 in response to a Russian news censorship law. The news outlet said that 17 Russian TV channels filed legal claims against Google, including the state-run Channel One, the military-affiliated Zvezda broadcaster, and a company representing RT Editor-in-Chief Margarita Simonyan.
+
+
+Kremlin rep: "I cannot even say this number"
+Since Russia invaded Ukraine in 2022, Google has "blocked more than 1,000 YouTube channels, including state-sponsored news, and over 5.5 million videos," Reuters wrote.
+
+
+A Kremlin spokesperson discussed the fine with reporters today. "Although it is a concretely formulated sum, I cannot even say this number. Rather it is filled with symbolism," Kremlin spokesman Dmitry Peskov told reporters at a daily briefing, according to the Moscow Times. Peskov said the fine "should be a reason for Google's management to pay attention to this and fix the situation. This is the best that the company can do."
+
+
+Reuters quoted Peskov as saying that the court orders "demonstrate the essence of our channels' claims against Google. Google should not restrict the activities of our broadcasters, and Google is doing this."
+
+
+We contacted Google and will update this article if it provides a response. Google parent Alphabet, however, described its legal problems in Russia in a Securities and Exchange Commission filing on Tuesday: "We have ongoing legal matters relating to Russia. For example, civil judgments that include compounding penalties have been imposed upon us in connection with disputes regarding the termination of accounts, including those of sanctioned parties. We do not believe these ongoing legal matters will have a material adverse effect."
+
+
+After Russia invaded Ukraine in February 2022, Google suspended ad sales, blocked Play Store app sales, and moved most of its employees out of the country. In July 2022, Russia fined Google over $370 million for refusing to comply with censorship demands, including demands to remove content that Russia deemed to be "fake news" about the war in Ukraine.
+
+
+Google's Russian subsidiary filed for bankruptcy in 2022 after authorities seized its bank account. In August of this year, Google announced that it was shutting down all AdSense accounts in Russia due to "ongoing developments" in the country.
+
+
+
+
+
+
+Judge slams Florida for censoring political ad: "It's the First Amendment, stupid"
+
+
+US District Judge Mark Walker had a blunt message for the Florida surgeon general in an order halting the government official's attempt to censor a political ad that opposes restrictions on abortion.
+
+
+"To keep it simple for the State of Florida: it's the First Amendment, stupid," Walker, an Obama appointee who is chief judge in US District Court for the Northern District of Florida, wrote yesterday in a ruling that granted a temporary restraining order.
+
+
+"Whether it's a woman's right to choose, or the right to talk about it, Plaintiff's position is the same—'don't tread on me,'" Walker wrote later in the ruling. "Under the facts of this case, the First Amendment prohibits the State of Florida from trampling on Plaintiff's free speech."
+
+
+The Florida Department of Health recently sent a legal threat to broadcast TV stations over the airing of a political ad that criticized abortion restrictions in Florida's Heartbeat Protection Act. The department in Gov. Ron DeSantis' administration claimed the ad falsely described the abortion law, which could be weakened by a pending ballot question.
+
+
+Floridians Protecting Freedom, the group that launched the TV ad and is sponsoring a ballot question to lift restrictions on abortion, sued Surgeon General Joseph Ladapo and Department of Health general counsel John Wilson. Wilson has resigned.
+
+
+Surgeon general blocked from further action
+Walker's order granting the group's motion states that "Defendant Ladapo is temporarily enjoined from taking any further actions to coerce, threaten, or intimate repercussions directly or indirectly to television stations, broadcasters, or other parties for airing Plaintiff's speech, or undertaking enforcement action against Plaintiff for running political advertisements or engaging in other speech protected under the First Amendment."
+
+
+The order expires on October 29 but could be replaced by a preliminary injunction that would remain in effect while litigation continues. A hearing on the motion for a preliminary injunction is scheduled for the morning of October 29.
+
+
+The pending ballot question would amend the state Constitution to say, "No law shall prohibit, penalize, delay, or restrict abortion before viability or when necessary to protect the patient's health, as determined by the patient's healthcare provider. This amendment does not change the Legislature's constitutional authority to require notification to a parent or guardian before a minor has an abortion."
+
+
+Walker's ruling said that Ladapo "has the right to advocate for his own position on a ballot measure. But it would subvert the rule of law to permit the State to transform its own advocacy into the direct suppression of protected political speech."
+
+
+Federal Communications Commission Chairwoman Jessica Rosenworcel recently criticized state officials, writing that "threats against broadcast stations for airing content that conflicts with the government's views are dangerous and undermine the fundamental principle of free speech."
+
+
+State threatened criminal proceedings
+The Floridians Protecting Freedom advertisement features a woman who "recalls her decision to have an abortion in Florida in 2022," and "states that she would not be able to have an abortion for the same reason under the current law," Walker's ruling said.
+
+
+Caroline, the woman in the ad, states that "the doctors knew if I did not end my pregnancy, I would lose my baby, I would lose my life, and my daughter would lose her mom. Florida has now banned abortion even in cases like mine. Amendment 4 is going to protect women like me; we have to vote yes."
+
+
+The ruling described the state government response:
+
+
+Shortly after the ad began running, John Wilson, then general counsel for the Florida Department of Health, sent letters on the Department's letterhead to Florida TV stations. The letters assert that Plaintiff's political advertisement is false, dangerous, and constitutes a "sanitary nuisance" under Florida law. The letter informed the TV stations that the Department of Health must notify the person found to be committing the nuisance to remove it within 24 hours pursuant to section 386.03(1), Florida Statutes. The letter further warned that the Department could institute legal proceedings if the nuisance were not timely removed, including criminal proceedings pursuant to section 386.03(2)(b), Florida Statutes. Finally, the letter acknowledged that the TV stations have a constitutional right to "broadcast political advertisements," but asserted this does not include "false advertisements which, if believed, would likely have a detrimental effect on the lives and health of pregnant women in Florida." At least one of the TV stations that had been running Plaintiff's advertisement stopped doing so after receiving this letter from the Department of Health.
+
+
+The Department of Health claimed the ad "is categorically false" because "Florida's Heartbeat Protection Act does not prohibit abortion if a physician determines the gestational age of the fetus is less than 6 weeks."
+
+
+Floridians Protecting Freedom responded that the woman in the ad made true statements, saying that "Caroline was diagnosed with stage four brain cancer when she was 20 weeks pregnant; the diagnosis was terminal. Under Florida law, abortions may only be performed after six weeks gestation if '[t]wo physicians certify in writing that, in reasonable medical judgment, the termination of the pregnancy is necessary to save the pregnant woman's life or avert a serious risk of substantial and irreversible physical impairment of a major bodily function of the pregnant woman other than a psychological condition.'"
+
+
+Because "Caroline's diagnosis was terminal... an abortion would not have saved her life, only extended it. Florida law would not allow an abortion in this instance because the abortion would not have 'save[d] the pregnant woman's life,' only extended her life," the group said.
+
+
+Judge: State should counter with its own speech
+Walker's ruling said the government can't censor the ad by claiming it is false:
+
+
+Plaintiff's argument is correct. While Defendant Ladapo refuses to even agree with this simple fact, Plaintiff's political advertisement is political speech—speech at the core of the First Amendment. And just this year, the United States Supreme Court reaffirmed the bedrock principle that the government cannot do indirectly what it cannot do directly by threatening third parties with legal sanctions to censor speech it disfavors. The government cannot excuse its indirect censorship of political speech simply by declaring the disfavored speech is "false."
+
+
+State officials must show that their actions "were narrowly tailored to serve a compelling government interest," Walker wrote. A "narrowly tailored solution" in this case would be counterspeech, not censorship, he wrote.
+
+
+"For all these reasons, Plaintiff has demonstrated a substantial likelihood of success on the merits," the ruling said. Walker wrote that a ruling in favor of the state would open the door to more censorship:
+
+
+This case pits the right to engage in political speech against the State's purported interest in protecting the health and safety of Floridians from "false advertising." It is no answer to suggest that the Department of Health is merely flexing its traditional police powers to protect health and safety by prosecuting "false advertising"—if the State can rebrand rank viewpoint discriminatory suppression of political speech as a "sanitary nuisance," then any political viewpoint with which the State disagrees is fair game for censorship.
+
+
+Walker then noted that Ladapo "has ample, constitutional alternatives to mitigate any harm caused by an injunction in this case." The state is already running "its own anti-Amendment 4 campaign to educate the public about its view of Florida's abortion laws and to correct the record, as it sees fit, concerning pro-Amendment 4 speech," Walker wrote. "The State can continue to combat what it believes to be 'false advertising' by meeting Plaintiff's speech with its own."
+
+
+
+
+The Internet Archive and its 916 billion saved web pages are back online
+
+
+The Internet Archive has brought its Wayback Machine back online "in a provisional, read-only manner" as it continues to recover from attacks that took the site down last week, founder Brewster Kahle said in a post last night. The archive.org home page points users to the now-functional Wayback Machine but notes that other Internet Archive services are temporarily offline.
+
+
+Kahle said it was "safe to resume" the Wayback Machine's operations, but that it "might need further maintenance, in which case it will be suspended again." The Wayback Machine's "Save Page Now" feature that lets users capture a webpage manually is currently unavailable. The related openlibrary.org book-preservation website was still offline today.
+
+
+Founded in 1996, the nonprofit Internet Archive crawls the web to preserve pages that are publicly available and has captured 916 billion web pages so far. It has a staff of 150 people and also provides free access to many videos, audio files, and books (though it was recently forced to delete 500,000 books after losing a copyright case).
+
+
+DDoS attacks and data breach
+Kahle said last week that the site was offline because of multiple DDoS (distributed denial of service) attacks. It also suffered a breach in September affecting 31 million user records.
+
+
+Last week, hackers defaced the Internet Archive website with a message that said, "Have you ever felt like the Internet Archive runs on sticks and is constantly on the verge of suffering a catastrophic security breach? It just happened. See 31 million of you on HIBP!"
+
+
+HIBP is a reference to Have I Been Pwned, which was created by security researcher Troy Hunt and provides information and notifications on data breaches. The hacked Internet Archive data was sent to Have I Been Pwned and "contains authentication information for registered members, including their email addresses, screen names, password change timestamps, Bcrypt-hashed passwords, and other internal data," BleepingComputer wrote.
+
+
+Kahle said on October 9 that the Internet Archive fended off a DDoS attack and was working on upgrading security in light of the data breach and website defacement. The next day, he reported that the "DDoS folks are back" and had knocked the site offline. The Internet Archive "is being cautious and prioritizing keeping data safe at the expense of service availability," he added.
+
+
+"Services are offline as we examine and strengthen them... Estimated Timeline: days, not weeks," he wrote on October 11. "Thank you for the offers of pizza (we are set)."

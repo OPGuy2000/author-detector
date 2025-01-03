@@ -1,0 +1,172 @@
+New congressional report: “COVID-19 most likely emerged from a laboratory”
+A textbook example of shifting the standards of evidence to suit its authors' needs.
+
+John Timmer – Dec 11, 2024 11:45 AM |  454
+A person in dark blue clothing holds an N-95 quality face mask.
+Did masks work to slow the spread of COVID-19? It all depends on what you accept as "evidence." Credit: Grace Cary
+
+Recently, Congress' Select Subcommittee on the Coronavirus Pandemic released its final report. The basic gist is about what you'd expect from a Republican-run committee, in that it trashes a lot of Biden-era policies and state-level responses while praising a number of Trump's decisions. But what's perhaps most striking is how it tackles a variety of scientific topics, including many where there's a large, complicated body of evidence.
+
+Notably, this includes conclusions about the origin of the pandemic, which the report describes as "most likely" emerging from a lab rather than being the product of the zoonotic transfer between an animal species and humans. The latter explanation is favored by many scientists.
+
+The conclusions themselves aren't especially interesting; they're expected from a report with partisan aims. But the method used to reach those conclusions is often striking: The Republican majority engages in a process of systematically changing the standard of evidence needed for it to reach a conclusion. For a conclusion the report's authors favor, they'll happily accept evidence from computer models or arguments from an editorial in the popular press; for conclusions they disfavor, they demand double-blind controlled clinical trials.
+
+This approach, which I'll term "shifting the evidentiary baseline," shows up in many arguments regarding scientific evidence. But it has rarely been employed quite this pervasively. So let's take a look at it in some detail and examine a few of the other approaches the report uses to muddy the waters regarding science. We're likely to see many of them put to use in the near future.
+
+Ars Video
+What Happens to the Developers When AI Can Code? | Ars Frontiers
+
+What counts as evidence?
+If you've been following the politics of the pandemic response, you can pretty much predict the sorts of conclusions the committee's majority wanted to reach: Masks were useless, the vaccines weren't properly tested for safety, and any restrictions meant to limit the spread of SARS-CoV-2 were ill-informed, etc. At the same time, some efforts pursued during the Trump administration, such as the Operation Warp Speed development of vaccines or the travel restrictions he put in place, are singled out for praise.
+
+
+Reaching those conclusions, however, can be a bit of a challenge for two reasons. One, which we won't really go into here, is that some policies that are now disfavored were put in place while Republicans were in charge of the national pandemic response. This leads to a number of awkward juxtapositions in the report: Operation Warp Speed is praised, while the vaccines it produced can't really be trusted; lockdowns promoted by Trump adviser Deborah Birx were terrible, but Birx's boss at the time goes unmentioned.
+
+That's all a bit awkward, but it has little to do with evaluating scientific evidence. Here, the report authors' desire to reach specific conclusions runs into a minefield of a complicated evidentiary record. For example, the authors want to praise the international travel restrictions that Trump put in place early in the pandemic. But we know almost nothing about their impact because most countries put restrictions in place after the virus was already present, and any effect they had was lost in the pandemic's rapid spread.
+
+At the same time, we have a lot of evidence that the use of well-fitted, high-quality masks can be effective at limiting the spread of SARS-CoV-2. Unfortunately, that's the opposite of the conclusion favored by Republican politicians.
+
+So how did they navigate this? By shifting the standard of evidence required between topics. For example, in concluding that "President Trump’s rapidly implemented travel restrictions saved lives," the report cites a single study as evidence. But that study is primarily based on computer models of the spread of six diseases—none of them COVID-19. As science goes, it's not nothing, but we'd like to see a lot more before reaching any conclusions.
+
+In contrast, when it comes to mask use, where there's extensive evidence that they can be effective, the report concludes they're all worthless: "The US Centers for Disease Control and Prevention relied on flawed studies to support the issuance of mask mandates." The supposed flaw is that these studies weren't randomized controlled trials—a standard far more strict than the same report required for travel restrictions. "The CDC provided a list of approximately 15 studies that demonstrated wearing masks reduced new infections," the report acknowledges. "Yet all 15 of the provided studies are observational studies that were conducted after COVID-19 began and, importantly, none of them were [randomized controlled trials]."
+
+
+Similarly, in concluding that "the six-foot social distancing requirement was not supported by science," the report quotes Anthony Fauci as saying, "What I meant by ‘no science behind it’ is that there wasn’t a controlled trial that said, 'compare six foot with three feet with 10 feet.' So there wasn’t that scientific evaluation of it."
+
+Perhaps the most egregious example of shifting the standards of evidence comes when the report discusses the off-label use of drugs such as chloroquine and ivermectin. These were popular among those skeptical of restrictions meant to limit the spread of SARS-CoV-2, but there was never any solid evidence that the drugs worked, and studies quickly made it clear that they were completely ineffective. Yet the report calls them "unjustly demonized" as part of "pervasive misinformation campaigns." It doesn't even bother presenting any evidence that they might be effective, just the testimony of one doctor who decided to prescribe them. In terms of scientific evidence, that is, in fact, nothing.
+
+Leaky arguments
+One of the report's centerpieces is its conclusion that "COVID-19 most likely emerged from a laboratory." And here again, the arguments shift rapidly between different standards of evidence.
+
+While a lab leak cannot be ruled out given what we know, the case in favor largely involves human factors rather than scientific evidence. These include things like the presence of a virology institute in Wuhan, anecdotal reports of flu-like symptoms among its employees, and so on. In contrast, there's extensive genetic evidence linking the origin of the pandemic to trade in wildlife at a Wuhan seafood market. That evidence, while not decisive, seems to have generated a general consensus among most scientists that a zoonotic origin is the more probable explanation for the emergence of SARS-CoV-2—as had been the case for the coronaviruses that had emerged earlier, SARS and MERS.
+
+
+So how to handle the disproportionate amount of evidence in favor of a hypothesis that the committee didn't like? By acting like it doesn't exist. "By nearly all measures of science, if there was evidence of a natural origin, it would have already surfaced," the report argues. Instead, it devotes page after page to suggesting that one of the key publications that laid out the evidence for a natural origin was the result of a plot among a handful of researchers who wanted to suppress the idea of a lab leak. Subsequent papers describing more extensive evidence appear to have been ignored.
+
+Meanwhile, since there's little scientific evidence favoring a lab leak, the committee favorably cites an op-ed published in The New York Times.
+
+An emphasis on different levels of scientific confidence would have been nice, especially when dealing with complicated issues like the pandemic. There are a range of experimental and observational approaches to topics, and they often lead to conclusions that have different degrees of certainty. But this report uses scientific confidence as a rhetorical tool to let its authors reach their preferred conclusions. High standards of evidence are used when its authors want to denigrate a conclusion that they don't like, while standards can be lowered to non-existence for conclusions they prefer.
+
+Put differently, even weak scientific evidence is preferable to a New York Times op-ed, yet the report opts for the latter.
+
+This sort of shifting of the evidentiary baseline has been a feature of some of the more convoluted arguments in favor of creationism or against the science of climate change. But it has mostly been confined to arguments that take place outside the view of the general public. Given its extensive adoption by politicians, however, we can probably expect the public to start seeing a lot more of it.
+Google gets an error-corrected quantum bit to be stable for an hour
+Using almost the entire chip for a logical qubit provides long-term stability.
+
+John Timmer – Dec 9, 2024 1:25 PM |  52
+Image of a gloved hand holding a computer chip.
+Google's new Willow chip is its first new generation of chips in about five years. Credit: Google
+
+On Monday, Nature released a paper from Google's quantum computing team that provides a key demonstration of the potential of quantum error correction. Thanks to an improved processor, Google's team found that increasing the number of hardware qubits dedicated to an error-corrected logical qubit led to an exponential increase in performance. By the time the entire 105-qubit processor was dedicated to hosting a single error-corrected qubit, the system was stable for an average of an hour.
+
+In fact, Google told Ars that errors on this single logical qubit were rare enough that it was difficult to study them. The work provides a significant validation that quantum error correction is likely to be capable of supporting the execution of complex algorithms that might require hours to execute.
+
+A new fab
+Google is making a number of announcements in association with the paper's release (an earlier version of the paper has been up on the arXiv since August). One of those is that the company is committed enough to its quantum computing efforts that it has built its own fabrication facility for its superconducting processors.
+
+"In the past, all the Sycamore devices that you've heard about were fabricated in a shared university clean room space next to graduate students and people doing kinds of crazy stuff," Google's Julian Kelly said. "And we've made this really significant investment in bringing this new facility online, hiring staff, filling it with tools, transferring their process over. And that enables us to have significantly more process control and dedicated tooling."
+
+Ars Video
+How Lighting Design In The Callisto Protocol Elevates The Horror
+
+That's likely to be a critical step for the company, as the ability to fabricate smaller test devices can allow the exploration of lots of ideas on how to structure the hardware to limit the impact of noise. The first publicly announced product of this lab is the Willow processor, Google's second design, which ups its qubit count to 105. Kelly said one of the changes that came with Willow actually involved making the individual pieces of the qubit larger, which makes them somewhat less susceptible to the influence of noise.
+
+
+
+All of that led to a lower error rate, which was critical for the work done in the new paper. This was demonstrated by running Google's favorite benchmark, one that it acknowledges is contrived in a way to make quantum computing look as good as possible. Still, people have figured out how to make algorithm improvements for classical computers that have kept them mostly competitive. But, with all the improvements, Google expects that the quantum hardware has moved firmly into the lead. "We think that the classical side will never outperform quantum in this benchmark because we're now looking at something on our new chip that takes under five minutes, would take 1025 years, which is way longer than the age of the Universe," Kelly said.
+
+Building logical qubits
+The work focuses on the behavior of logical qubits, in which a collection of individual hardware qubits are grouped together in a way that enables errors to be detected and corrected. These are going to be essential for running any complex algorithms, since the hardware itself experiences errors often enough to make some inevitable during any complex calculations.
+
+This naturally creates a key milestone. You can get better error correction by adding more hardware qubits to each logical qubit. If each of those hardware qubits produces errors at a sufficient rate, however, then you'll experience errors faster than you can correct for them. You need to get hardware qubits of a sufficient quality before you start benefitting from larger logical qubits. Google's earlier hardware had made it past that milestone, but only barely. Adding more hardware qubits to each logical qubit only made for a marginal improvement.
+
+That's no longer the case. Google's processors have the hardware qubits laid out on a square grid, with each connected to its nearest neighbors (typically four except at the edges of the grid). And there's a specific error correction code structure, called the surface code, that fits neatly into this grid. And you can use surface codes of different sizes by using progressively more of the grid. The size of the grid being used is measured by a term called distance, with larger distance meaning a bigger logical qubit, and thus better error correction.
+
+
+(In addition to a standard surface code, Google includes a few qubits that handle a phenomenon called "leakage," where a qubit ends up in a higher-energy state, instead of the two low-energy states defined as zero and one.)
+
+The key result is that going from a distance of three to a distance of five more than doubled the ability of the system to catch and correct errors. Going from a distance of five to a distance of seven doubled it again. Which shows that the hardware qubits have reached a sufficient quality that putting more of them into a logical qubit has an exponential effect.
+
+"As we increase the grid from three by three to five by five to seven by seven, the error rate is going down by a factor of two each time," said Google's Michael Newman. "And that's that exponential error suppression that we want."
+
+Going big
+The second thing they demonstrated is that, if you make the largest logical qubit that the hardware can support, with a distance of 15, it's possible to hang onto the quantum information for an average of an hour. This is striking because Google's earlier work had found that its processors experience widespread simultaneous errors that the team ascribed to cosmic ray impacts. (IBM, however, has indicated it doesn't see anything similar, so it's not clear whether this diagnosis is correct.) Those happened every 10 seconds or so. But this work shows that a sufficiently large error code can correct for these events, whatever their cause.
+
+That said, these qubits don't survive indefinitely. One of them seems to be a localized temporary increase in errors. The second, more difficult to deal with problem involves a widespread spike in error detection affecting an area that includes roughly 30 qubits. At this point, however, Google has only seen six of these events, so they told Ars that it's difficult to really characterize them. "It's so rare it actually starts to become a bit challenging to study because you have to gain a lot of statistics to even see those events at all," said Kelly.
+
+
+Beyond the relative durability of these logical qubits, the paper notes another advantage to going with larger code distances: it enhances the impact of further hardware improvements. Google estimates that at a distance of 15, improving hardware performance by a factor of two would drop errors in the logical qubit by a factor of 250. At a distance of 27, the same hardware improvement would lead to an improvement of over 10,000 in the logical qubit's performance.
+
+Note that none of this will ever get the error rate to zero. Instead, we just need to get the error rate to a level where an error is unlikely for a given calculation (more complex calculations will require a lower error rate). "It's worth understanding that there's always going to be some type of error floor and you just have to push it low enough to the point where it practically is irrelevant," Kelly said. "So for example, we could get hit by an asteroid and the entire Earth could explode and that would be a correlated error that our quantum computer is not currently built to be robust to."
+
+Obviously, a lot of additional work will need to be done to both make logical qubits like this survive for even longer, and to ensure we have the hardware to host enough logical qubits to perform calculations. But the exponential improvements here, to Google, suggest that there's nothing obvious standing in the way of that. "We woke up one morning and we kind of got these results and we were like, wow, this is going to work," Newman said. "This is really it."
+US to start nationwide testing for H5N1 flu virus in milk supply
+Feds can compel any company that handles pre-pasteurized milk to share samples.
+
+John Timmer – Dec 6, 2024 4:18 PM |  106
+Green, rolling hills, dotted with both trees and black and white cows.
+Credit: Credit: mikedabell
+
+On Friday, the US Department of Agriculture (USDA) announced that it would begin a nationwide testing program for the presence of the H5N1 flu virus, also known as the bird flu. Testing will focus on pre-pasteurized milk at dairy processing facilities (pasteurization inactivates the virus), but the order that's launching the program will require anybody involved with milk production before then to provide samples to the USDA on request. That includes "any entity responsible for a dairy farm, bulk milk transporter, bulk milk transfer station, or dairy processing facility."
+
+The ultimate goal is to identify individual herds where the virus is circulating and use the agency's existing powers to do contact tracing and restrict the movement of cattle, with the ultimate goal of eliminating the virus from US herds.
+
+A bovine disease vector
+At the time of publication, the CDC had identified 58 cases of humans infected by the H5N1 flu virus, over half of them in California. All but two have come about due to contact with agriculture, either cattle (35 cases) or poultry (21). The virus's genetic material has appeared in the milk supply and, although pasteurization should eliminate any intact infectious virus, raw milk is notable for not undergoing pasteurization, which has led to at least one recall when the virus made its way into raw milk. And we know the virus can spread to other species if they drink milk from infected cows.
+
+Ars Video
+How The Callisto Protocol's Team Designed Its Terrifying, Immersive Audio
+
+So far, the human H5N1 cases have generally been mild. But the worry is that prolonged circulation in other mammals may allow the virus to evolve in ways that will put humans at greater risk of infections or enable the infection to cause more severe symptoms.
+
+
+
+So, the ultimate goal of the USDA is to eliminate cattle as a reservoir. When the Agency announced it was planning for this program, it noted that there were two candidate vaccines in trials. Until those are validated, it plans to use the standard playbook for handling emerging infections: contact tracing and isolation. And it has the ability to compel cattle and their owners to be more cooperative than the human population turned out to be.
+
+The five-step plan
+The USDA refers to isolation and contact tracing as Stage 3 of a five-stage plan for controlling H5N1 in cattle, with the two earlier stages being the mandatory sampling and testing, meant to be handled on a state-by-state basis. Following the successful containment of the virus in a state, the USDA will move on to batch sampling to ensure each state remains virus-free. This is essential, given that we don't have a clear picture of how many times the virus has jumped from its normal reservoir in birds into the cattle population.
+
+That makes it possible that reaching Stage 5, which the USDA terms "Demonstrating Freedom from H5 in US Dairy Cattle," will turn out to be impossible. Dairy cattle are likely to have daily contact with birds, and it may be that the virus will be regularly re-introduced into the population, leaving containment as the only option until the vaccines are ready.
+
+Testing will initially focus primarily on states where cattle-to-human transmission is known to have occurred or the virus is known to be present: California, Colorado, Michigan, Mississippi, Oregon, and Pennsylvania. If you wish to track the progress of the USDA's efforts, it will be posting weekly updates.
+
+Google’s DeepMind tackles weather forecasting, with great performance
+Needs just eight minutes on one processor to do a single 15-day forecast.
+
+John Timmer – Dec 4, 2024 12:06 PM |  65
+Image of a large cyclonic storm south of Japan.
+A rendering of 2023's Typhoon Lan.
+
+By some measures, AI systems are now competitive with traditional computing methods for generating weather forecasts. Because their training penalizes errors, however, the forecasts tend to get "blurry"—as you move further ahead in time, the models make fewer specific predictions since those are more likely to be wrong. As a result, you start to see things like storm tracks broadening and the storms themselves losing clearly defined edges.
+
+But using AI is still extremely tempting because the alternative is a computational atmospheric circulation model, which is extremely compute-intensive. Still, it's highly successful, with the ensemble model from the European Centre for Medium-Range Weather Forecasts considered the best in class.
+
+In a paper being released today, Google's DeepMind claims its new AI system manages to outperform the European model on forecasts out to at least a week and often beyond. DeepMind's system, called GenCast, merges some computational approaches used by atmospheric scientists with a diffusion model, commonly used in generative AI. The result is a system that maintains high resolution while cutting the computational cost significantly.
+
+Ensemble forecasting
+Traditional computational methods have two main advantages over AI systems. The first is that they're directly based on atmospheric physics, incorporating the rules we know govern the behavior of our actual weather, and they calculate some of the details in a way that's directly informed by empirical data. They're also run as ensembles, meaning that multiple instances of the model are run. Due to the chaotic nature of the weather, these different runs will gradually diverge, providing a measure of the uncertainty of the forecast.
+
+At least one attempt has been made to merge some of the aspects of traditional weather models with AI systems. An internal Google project used a traditional atmospheric circulation model that divided the Earth's surface into a grid of cells but used an AI to predict the behavior of each cell. This provided much better computational performance, but at the expense of relatively large grid cells, which resulted in relatively low resolution.
+
+For its take on AI weather predictions, DeepMind decided to skip the physics and instead adopt the ability to run an ensemble.
+
+Gen Cast is based on diffusion models, which have a key feature that's useful here. In essence, these models are trained by starting them with a mixture of an original—image, text, weather pattern—and then a variation where noise is injected. The system is supposed to create a variation of the noisy version that is closer to the original. Once trained, it can be fed pure noise and evolve the noise to be closer to whatever it's targeting.
+
+In this case, the target is realistic weather data, and the system takes an input of pure noise and evolves it based on the atmosphere's current state and its recent history. For longer-range forecasts, the "history" includes both the actual data and the predicted data from earlier forecasts. The system moves forward in 12-hour steps, so the forecast for day three will incorporate the starting conditions, the earlier history, and the two forecasts from days one and two.
+
+This is useful for creating an ensemble forecast because you can feed it different patterns of noise as input, and each will produce a slightly different output of weather data. This serves the same purpose it does in a traditional weather model: providing a measure of the uncertainty for the forecast.
+
+For each grid square, GenCast works with six weather measures at the surface, along with six that track the state of the atmosphere and 13 different altitudes at which it estimates the air pressure. Each of these grid squares is 0.2 degrees on a side, a higher resolution than the European model uses for its forecasts. Despite that resolution, DeepMind estimates that a single instance (meaning not a full ensemble) can be run out to 15 days on one of Google's tensor processing systems in just eight minutes.
+
+It's possible to make an ensemble forecast by running multiple versions of this in parallel and then integrating the results. Given the amount of hardware Google has at its disposal, the whole process from start to finish is likely to take less than 20 minutes. The source and training data will be placed on the GitHub page for DeepMind's GraphCast project. Given the relatively low computational requirements, we can probably expect individual academic research teams to start experimenting with it.
+
+Measures of success
+DeepMind reports that GenCast dramatically outperforms the best traditional forecasting model. Using a standard benchmark in the field, DeepMind found that GenCast was more accurate than the European model on 97 percent of the tests it used, which checked different output values at different times in the future. In addition, the confidence values, based on the uncertainty obtained from the ensemble, were generally reasonable.
+
+Past AI weather forecasters, having been trained on real-world data, are generally not great at handling extreme weather since it shows up so rarely in the training set. But GenCast did quite well, often outperforming the European model in things like abnormally high and low temperatures and air pressure (one percent frequency or less, including at the 0.01 percentile).
+
+DeepMind also went beyond standard tests to determine whether GenCast might be useful. This research included projecting the tracks of tropical cyclones, an important job for forecasting models. For the first four days, GenCast was significantly more accurate than the European model, and it maintained its lead out to about a week.
+
+One of DeepMind's most interesting tests was checking the global forecast of wind power output based on information from the Global Powerplant Database. This involved using it to forecast wind speeds at 10 meters above the surface (which is actually lower than where most turbines reside but is the best approximation possible) and then using that number to figure out how much power would be generated. The system beat the traditional weather model by 20 percent for the first two days and stayed in front with a declining lead out to a week.
+
+The researchers don't spend much time examining why performance seems to decline gradually for about a week. Ideally, more details about GenCast's limitations would help inform further improvements, so the researchers are likely thinking about it. In any case, today's paper marks the second case where taking something akin to a hybrid approach—mixing aspects of traditional forecast systems with AI—has been reported to improve forecasts. And both those cases took very different approaches, raising the prospect that it will be possible to combine some of their features.

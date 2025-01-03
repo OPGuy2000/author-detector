@@ -1,0 +1,264 @@
+Are LLMs capable of non-verbal reasoning?
+Processing in the "latent space" could help AI with tricky logical questions.
+
+Kyle Orland – Dec 12, 2024 4:55 PM |  292
+
+It's thinking, but not in words. Credit: Getty Images
+
+Large language models have found great success so far by using their transformer architecture to effectively predict the next words (i.e., language tokens) needed to respond to queries. When it comes to complex reasoning tasks that require abstract logic, though, some researchers have found that interpreting everything through this kind of "language space" can start to cause some problems, even for modern "reasoning" models.
+
+Now, researchers are trying to work around these problems by crafting models that can work out potential logical solutions completely in "latent space"—the hidden computational layer just before the transformer generates language. While this approach doesn't cause a sea change in an LLM's reasoning capabilities, it does show distinct improvements in accuracy for certain types of logical problems and shows some interesting directions for new research.
+
+Wait, what space?
+Modern reasoning models like ChatGPT's o1 tend to work by generating a "chain of thought." Each step of the logical process in these models is expressed as a sequence of natural language word tokens that are fed back through the model.
+
+In a new paper, researchers at Meta's Fundamental AI Research team (FAIR) and UC San Diego identify this reliance on natural language and "word tokens" as a "fundamental constraint" for these reasoning models. That's because the successful completion of reasoning tasks often requires complex planning on specific critical tokens to figure out the right logical path from a number of options.
+
+
+A figure illustrating the difference between standard models going through a transformer after every step and the COCONUT model's use of hidden, "latent" states. Credit: Training Large Language Models to Reason in a Continuous Latent Space
+In current chain-of-thought models, though, word tokens are often generated for "textual coherence" and "fluency" while "contributing little to the actual reasoning process," the researchers write. Instead, they suggest, "it would be ideal for LLMs to have the freedom to reason without any language constraints and then translate their findings into language only when necessary."
+
+Ars Video
+How The Callisto Protocol's Gameplay Was Perfected Months Before Release
+
+To achieve that "ideal," the researchers describe a method for "Training Large Language Models to Reason in a Continuous Latent Space," as the paper's title puts it. That "latent space" is essentially made up of the "hidden" set of intermediate token weightings that the model contains just before the transformer generates a human-readable natural language version of that internal state.
+
+
+
+In the researchers' COCONUT model (for Chain Of CONtinUous Thought), those kinds of hidden states are encoded as "latent thoughts" that replace the individual written steps in a logical sequence both during training and when processing a query. This avoids the need to convert to and from natural language for each step and "frees the reasoning from being within the language space," the researchers write, leading to an optimized reasoning path that they term a "continuous thought."
+
+Being more breadth-minded
+While doing logical processing in the latent space has some benefits for model efficiency, the more important finding is that this kind of model can "encode multiple potential next steps simultaneously." Rather than having to pursue individual logical options fully and one by one (in a "greedy" sort of process), staying in the "latent space" allows for a kind of instant backtracking that the researchers compare to a breadth-first-search through a graph.
+
+This emergent, simultaneous processing property comes through in testing even though the model isn't explicitly trained to do so, the researchers write. "While the model may not initially make the correct decision, it can maintain many possible options within the continuous thoughts and progressively eliminate incorrect paths through reasoning, guided by some implicit value functions," they write.
+
+
+A figure highlighting some of the ways different models can fail at certain types of logical inference. Credit: Training Large Language Models to Reason in a Continuous Latent Space
+That kind of multi-path reasoning didn't really improve COCONUT's accuracy over traditional chain-of-thought models on relatively straightforward tests of math reasoning (GSM8K) or general reasoning (ProntoQA). But the researchers found the model did comparatively well on a randomly generated set of ProntoQA-style queries involving complex and winding sets of logical conditions (e.g., "every apple is a fruit, every fruit is food, etc.").
+
+For these tasks, standard chain-of-thought reasoning models would often get stuck down dead-end paths of inference or even hallucinate completely made-up rules when trying to resolve the logical chain. Previous research has also shown that the "verbalized" logical steps output by these chain-of-thought models "may actually utilize a different latent reasoning process" than the one being shared.
+
+This new research joins a growing body of research seeking to understand and exploit the way large language models work at the level of their underlying neural networks. And while that kind of research hasn't led to a huge breakthrough just yet, the researchers conclude that models pre-trained with these kinds of "continuous thoughts" from the get-go could "enable models to generalize more effectively across a wider range of reasoning scenarios."
+Itch.io platform briefly goes down due to “AI-driven” anti-phishing report
+Domain registrar failed to respond after offending content was taken down.
+
+Kyle Orland – Dec 9, 2024 12:25 PM |  48
+
+Losing your domain is even worse when that domain is your entire brand. Credit: Itch.io
+
+Popular indie game platform itch.io says its domain was briefly taken down for a few hours Monday morning thanks to an "AI-driven" phishing report spurred by the company behind Funko Pop figures.
+
+Itch.io management posted about the domain takedown on social media overnight, complaining of a chain of events that started because "Funko of 'Funko Pop'... use some trash 'AI Powered' Brand Protection Software called BrandShield that created some bogus Phishing report to our registrar, iwantmyname, who ignored our response and just disabled the domain," the post said.
+
+In a Hacker News comment, Itch.io founder Leaf "Leafo" Cohran said that the BrandShield complaint seems to have originated from a single itch.io user who "made a fan page for an existing Funko Pop video game (Funko Fusion), with links to the official site and screenshots of the game." That led to independent reports to Itch's host and registrar of "fraud and phishing" a few days ago.
+
+Ars Video
+What Happens to the Developers When AI Can Code? | Ars Frontiers
+
+While Cochran says the offending page was taken down immediately after the complaints were filed, he suspects the initial complaint meant "our registrar's automated system likely kicked to disable the domain since no one read our confirmation of removal."
+
+
+
+The itch.io domain was back up and running by 7 am Eastern, according to media reports, "after the registrant finally responded to our notice and took appropriate action to resolve the issue." Users could access the site throughout if they typed the itch.io IP address into their web browser directly.
+
+Too strong a shield?
+
+Credit: Brandshield
+BrandShield's website describes it as a service that "detects and hunts online trademark infringement, counterfeit sales, and brand abuse across multiple platforms.” The company claims to have multiple Fortune 500 and FTSE100 companies on its client list.
+
+In its own series of social media posts, BrandShield said its "AI-driven platform" had identified "an abuse of Funko... from an itch.io subdomain." The takedown request it filed was focused on that subdomain, not the entirety of itch.io, BrandShield said.
+
+"The temporary takedown of the website was a decision made by the service providers, not BrandShield or Funko."
+
+The whole affair highlights how the delicate web of domain registrars and DNS servers can remain a key failure point for web-based businesses. Back in May, we saw how the desyncing of a single DNS root server could cause problems across the entire Internet. And in 2012, the hacking collective Anonymous highlighted the potential for a coordinated attack to take down the entire DNS system.Win hardware, collectibles, and more in the 2024 Ars Technica Charity Drive
+Help yourself to prizes by helping us raise money for good causes.
+
+Kyle Orland – Dec 9, 2024 7:00 AM |  41
+
+Just some of the prizes you can win in this years Ars Technica Charity Drive sweepstakes Credit: Kyle Orland
+
+It's once again that special time of year when we give you a chance to do well by doing good. That's right—it's time for the 2024 edition of our annual Charity Drive!
+
+Every year since 2007, we've encouraged readers to give to Penny Arcade's Child's Play charity, which provides toys and games to kids being treated in hospitals around the world. In recent years, we've added the Electronic Frontier Foundation to our charity push, aiding in their efforts to defend Internet freedom. This year, as always, we're providing some extra incentive for those donations by offering donors a chance to win pieces of our big pile of vendor-provided swag. We can't keep it, and we don't want it clogging up our offices, so it's now yours to win.
+
+This year's swag pile is full of high-value geek goodies. We have dozens of prizes valued at over $4,000 total, including gaming hardware and collectibles, computer accessories, apparel, and more. In 2023, Ars readers raised nearly $40,000 for charity, contributing to a total haul of more than $506,000 since 2007. We want to raise even more this year, and we can do it if readers dig deep.
+
+How it works
+Donating is easy. Simply donate to Child's Play using a credit card or PayPal or donate to the EFF using PayPal, credit card, or cryptocurrency. You can also support Child's Play directly by using this Ars Technica campaign page or picking an item from the Amazon wish list of a specific hospital on its donation page. Donate as much or as little as you feel comfortable with—every little bit helps.
+
+Ars Video
+How Scientists Respond to Science Deniers
+
+Once that's done, it's time to register your entry in our sweepstakes. Just grab a digital copy of your receipt (a forwarded email, a screenshot, or simply a cut-and-paste of the text) and send it to ArsCharityDrive@gmail.com with your name, postal address, daytime telephone number, and email address by 11:59 pm ET Wednesday, January 2, 2025. (One entry per person, and each person can only win up to one prize. US residents only. NO PURCHASE NECESSARY. See Official Rules for more information, including how to enter without making a donation. Also, refer to the Ars Technica privacy policy (https://www.condenast.com/privacy-policy).
+
+
+
+We'll then contact the winners and have them choose their prize by January 31, 2025 (choosing takes place in the order the winners are drawn).
+
+The prizes
+Here are quick descriptions of some of the biggest, most desirable prizes in this year's lineup. See the next page for a complete list of the available prizes.
+
+Magic: The Gathering prize packs
+
+Wizards of the Coast continues to crank out set after set of news cards in this collectible game that has only gotten more popular since its 1993 debut. This year, we have two packages of decks and booster packs from the Duskmourn: House of Horrors and Foundations sets, each with enough cards to dominate the competition.
+
+UGreen NASync drive enclosures
+ 
+
+
+Here at Ars, we've long expounded on the benefits of backing up your data locally on a Network Attached Storage Server. This year, we have two high-end UGreen NASync drive enclosures to jumpstart your own home NAS solution.
+
+Atari 7800+ VIP package
+
+Credit: Kyle Orland
+For our review of this no-frills piece of retro gaming hardware, Atari sent us a VIP package complete with the system, two controllers, and a set of eight complete games from its modern cartridge series. The whole package comes in a collectible case that can all be yours if you enter this year's sweepstakes.
+Homey Pro
+
+
+In our review of this smart home automation puck, we called it "best in class" for a certain type of home automation enthusiast who's interested in tweaking it to their particular use case. You can be one of these people if you win this Homey Pro in this year's sweepstakes.
+
+None of the big prizes grabbing your attention? Check out the next page for a full list of prizes you can win by entering!
+
+The prizes
+Apparel
+Convai t-shirt (Next Level Apparel, black, Medium)
+Jaguar Formula E baseball cap and long-sleeve top
+Le Remarquable bike helmet (cream)
+Parcel Corps branded bicycle cap (Powerhouse Sport)
+Resolution Games branded neckerchief
+Scout Motors baseball cap + tote bag
+VW ID Buzz cap + tie-die dishtowel
+Collectibles/other
+Balatro Special Edition (Switch)
+Bentley keyring
+Luxray Funko Pop
+Magic the Gathering Duskmourn collection (Play Booster box, collector booster packs x 6, Endless Punishment Commander deck, Death Toll commander deck)
+Magic the Gathering Foundations collection (Play booster box, collectors booster x 6)
+Nintendo Switch prize pack (Stanley cup + branded pen + reusable vinyl bag + popsocket)
+On Your Tail acrylic mini-diorama
+Polestar notebook and pen
+Tencent QQ Family penguin plush
+Tetris Augmented Reality logo pin (Pinfinity)
+Zenless Zone Zero media kit (mousepad, fridge magnets, switch game case, acrylic stand, postcards, character badges)
+Hardware and accessories
+Anker 622 Magnetic Battery (MagGo, blue, used)
+Atari 400 Mini
+Atari 7800+ VIP package (w/ eight games) (used)
+Bellroy Tech Kit (bronze, used)
+Crkd Nitro Deck Switch holder (Retro Mint color, used)
+Homey Pro + ethernet dongle (used)
+Nintendo Alarmo
+UGreen NASync DXP2800 (w/ 2 WED Red drives, used)
+UGreen NASync DXP480T Plus (no drives included)
+Related Stories
+Indiana Jones and the Great Circle is pitch-perfect archaeological adventuring
+Review: Amazing open-world environs round out a tight, fun-filled adventure story.
+
+Kyle Orland – Dec 5, 2024 7:00 PM |  104
+
+No need to put Harrison Ford through the de-aging filter here! Credit: Bethesda / MachineGames
+
+Game details
+Developer: MachineGames
+Publisher: Bethesda Softworks
+Platform: Windows (reviewed), Xbox Series S/X, PS5 (planned for April)
+Release Date: Dec. 9, 2024
+ESRB Rating: T for Teen
+Price: $70
+Links: Amazon | Steam | Official Website
+
+Historically, games based on popular film or TV franchises have generally been seen as cheap cash-ins, slapping familiar characters and settings on a shovelware clone of a popular genre and counting on the license to sell enough copies to devoted fans. Indiana Jones and the Great Circle clearly has grander ambitions than that, putting a AAA budget behind a unique open-world exploration game built around stealth, melee combat, and puzzle solving.
+
+Building such a game on top of such well-loved source material comes with plenty of challenges. The developers at MachineGames need to pay homage to the source material without resorting to the kind of slavish devotion that amounts to a mere retread of a familiar story. At the same time, any new Indy adventure carries with it the weight not just of the character's many film and TV appearances but also well-remembered games like Indiana Jones and the Fate of Atlantis. Then there are game franchises like Tomb Raider and Uncharted, which have already put their own significant stamps on the Indiana Jones formula of action-packed, devil-may-care treasure-hunting.
+
+
+No, this is not a scene from a new Uncharted game. Credit: Bethesda / MachineGames
+Surprisingly, Indiana Jones and the Great Circle bears all this pressure pretty well. While the stealth-exploration gameplay and simplistic puzzles can feel a bit trite at points, the game's excellent presentation, top-notch world-building, and fun-filled, campy storyline drive one of Indy's most memorable adventures since the original movie trilogy.
+
+A fun-filled adventure
+The year is 1937, and Indiana Jones has already Raided a Lost Ark but has yet to investigate the Last Crusade. After a short introductory flashback that retells an interactive version of Raiders of the Lost Ark's famous golden idol extraction, Professor Jones gets unexpectedly drawn away from preparations for midterms when a giant of a man breaks into Marshall College's antiquities wing and steals a lone mummified cat.
+
+Ars Video
+How The Callisto Protocol's Gameplay Was Perfected Months Before Release
+
+Investigating that theft takes Jones on a globetrotting tour of locations along "The Great Circle," a ring of archaeologically significant sites around the world that house ancient artifacts rumored to hold great and mysterious power. Those rumors have attracted the attention of the Nazis (who else would you expect?), dragging Indy into a race to secure the artifacts before they threaten to alter the course of an impending world war.
+
+
+
+
+You see a whip, I see a grappling hook. Credit: Bethesda / MachineGames
+The game's overarching narrative—told mainly through lengthy cut scenes that serve as the most captivating reward for in-game achievements—does a pitch-perfect job of replicating the campy, madcap, fun-filled, adventurous tone Indy is known for. The writing is full of all the pithy one-liners and cheesy puns you could hope for, as well as countless overt and subtle references to Indy movie moments that will be familiar to even casual fans.
+
+Indy here is his usual mix of archaeological superhero and bumbling everyman. One moment, he's using his whip and some hard-to-believe upper body strength to jump around some quickly crumbling ruins. The next, he's avoiding death during a madcap fight scene through a combination of sheer dumb luck and overconfident opposition. The next, he's solving ancient riddles with reams of historical techno-babble and showing a downright supernatural ability to decipher long-dead languages in an instant when the plot demands it.
+
+
+You have to admit it, this circle is pretty great! Credit: Bethesda / MachineGames
+It all works in large part thanks to Troy Baker's excellent vocal performance as Jones, which he somehow pulls off as a compelling cross between Harrison Ford and Jeff Goldblum. The music does some heavy lifting in setting the tone, too; it's full of downright cinematic stirring horns and tension-packed strings that fade in and out perfectly in sync with the on-screen action. The game even shows some great restraint in its sparing use of the famous Indiana Jones theme, which I ended up humming to myself as I played more often than I actually heard it referenced in the game's score.
+
+Indy quips well off of Gina, a roving reporter searching for her missing sister who serves as the obligatory love interest/globetrotting exploration partner. But the game's best scenes all involve Emmerich Voss, the Nazi archaeologist antagonist who makes an absolute meal out of his scenery chewing. From his obsession with cranial shapes to his preening diatribes about the inferiority of American culture, Voss makes the perfect foil for Indy's no-nonsense, homespun apple pie forthrightness.
+
+
+
+
+Voss steals literally every scene he's in. Credit: Bethesda / MachineGames
+By the time the plot descends into an inevitable mess of pseudo-religious magical mysticism, it's clear that this is a story that doesn't take itself too seriously. You may cringe a bit at how over the top it all gets, but you'll probably be having too much fun to care.
+
+Take a look around
+In between the cut scenes—which together could form the basis for a strong Indiana Jones-themed episodic streaming miniseries—there's an actual interactive game to play here as well. That game primarily plays out across three decently sized maps—one urban, one desert, and one water-logged marsh—that you can explore relatively freely, broken up by shorter, more linear interludes in between.
+
+Following the main story quests in each of these locales generally has you zigzagging across the map through a series of glorified fetch quests. Go to location A to collect some mystical doodad, then return it to unlock some fun exposition and a reason to go to location B. Repeat as necessary.
+
+I say "point A" there, but it's usually more accurate to say the game points you toward "circle A" on the map. Once you get there, you often have to do a bit of unguided exploring to find the hidden trinket or secret entry point you need.
+
+
+Am I going in the right direction? Credit: Bethesda / MachineGames
+At their best, these exploration bits made me feel more like an archaeological detective than the usual in-game tourist blindly following a waypoint from location to location. At its worst, I spent 15 minutes searching through one of these map circles before finding my in-game partner Gina standing right next to the target I was probably intended to find immediately. So it goes.
+
+Traipsing across the map in this way slowly reveals the sizable scale of the game's environments, which often extend beyond what's first apparent on the map to multi-floor buildings and gigantic subterranean caverns. Unlocking and/or figuring out all of the best paths through these labyrinthine locales—which can involve climbing across rooftops or crawling through enemy barracks—is often half the fun.
+
+
+
+As you crisscross the map, you also invariably stumble on a seemingly endless array of optional sidequests, mysteries, and "fieldwork," which you keep track of in a dynamically updated journal. While there's an attempt at a plot justification for each of these optional fetch quests, the ones I tried ended up being much less compelling than the main plot, which seems to have taken most of the writers' attention.
+
+
+Indiana Jones, famous Vatican tourist. Credit: Bethesda / MachineGames
+As you explore, a tiny icon in the corner of the screen will also alert you to photo opportunities, which can unlock important bits of lore or context for puzzles. I thoroughly enjoyed these quick excuses to appreciate the game's well-designed architecture and environments, even as it made Indy feel a bit more like a random tourist than a badass archaeologist hero.
+
+Quick, hide!
+Unfortunately, your ability to freely explore The Great Circle's environments is often hampered by large groups of roaming Nazi and/or fascist soldiers. Sometimes, you can put on a disguise to walk among them unseen, but even then, certain enemies can pick you out of the crowd, something that was not clear to me until I had already been plucked out of obscurity more than a few times.
+
+When undisguised, you'll spend a lot of time kneeling and sneaking silently just outside the soldiers' vision cones or patiently waiting for them to move so you can sneak through a newly safe path. Remaining unseen also lets you silently take out enemies from behind, which includes pushing unsuspected enemy sentries off of ledges in a hilarious move that never, ever gets old.
+
+
+They'll never find me up here. Credit: Bethesda / MachineGames
+When your sneaking skills fail you amid a large group of enemies, the best and easiest thing to do is immediately run and hide. For the most part, the enemies are incredibly inept in their inevitable pursuit; dodge around a couple of corners and hide in a dark alley and they'll usually quickly lose track of you. While I appreciated that being spotted wasn't an instant death sentence, the ease with which I could outsmart these soldiers made the sneaking a lot less tense.
+
+
+
+If you get spotted by a group of just one or two enemy soldiers, though, it's time for some first-person melee combat, which draws heavy inspiration from the developers' previous work on the early '00s Chronicles of Riddick games. These fights usually play out like the world's most overdesigned game of Punch-Out!!—you stand there waiting for a heavily telegraphed punch to come in, at which point you throw up a quick block or dodge and then counter with a series of rapid, crunchy punches of your own. Repeat until the enemy goes down.
+
+You can spice things up a bit here by disarming and/or unbalancing your foes with your whip or by grabbing a wide variety of nearby objects to use as improvised melee weapons. After a while, though, all the fistfights start to feel pretty rote and unmemorable. The first time you hit a Nazi upside the head with a plunger is hilarious. The fifth time is a bit tiresome.
+
+
+It's always a good time to punch a Nazi. Credit: Bethesda / MachineGames
+While you can also pull out a trusty revolver to simply shoot your foes, the racket the shots make usually leads to so much unwelcome enemy attention that it's rarely worth the trouble. Aside from a handful of obligatory sections where the game practically forces you into a shooting gallery situation, I found little need to engage in the serviceable but unexciting gun combat.
+
+And while The Great Circle is far from a horror game, there are a few combat moments of genuine terror with foes more formidable than the average grunt. I don't want to give away too much, but those with fear of underwater creatures, the dark, or confined spaces will find some parts of the game incredibly tense.
+
+Not so puzzling
+My favorite gameplay moments in The Great Circle were the extended sections where I didn't have to worry about stealth or combat and could just focus on exploring massive underground ruins. These feature some of the game's most interesting traversal challenges, where looking around and figuring out just how to make it to the next objective is engaging on its own terms. There's little of the Uncharted-style gameplay of practically highlighting every handhold and jump with a flashing red sign.
+
+
+
+
+When giant mechanical gears need placing, you know who to call! Credit: Bethesda / MachineGames
+These exploratory bits are broken up by some obligatory puzzles, usually involving Indiana Jones' trademark of unbelievably intricate ancient stone machinery. Arrange the giant stone gears so the door opens, put the right relic in the right spot, shine a light on some emblems with a few mirrors, and so on. You know the drill if you've played any number of similar action-adventure games, and you probably won't be all that engaged if you know how to perform some basic logic and exploration (though snapping pictures with the in-game camera offers hints for those who get unexpectedly stuck).
+
+But even during the least engaging puzzles or humdrum fights in The Great Circle, I was compelled forward by the promise of some intricate ruin or pithy cut scene quip to come. Like the best Indiana Jones movies, there's a propulsive force to the game's most exciting scenes that helps you push past any brief feelings of tedium in between. Here's hoping we see a lot more of this version of Indiana Jones in the future.
+
+A note on performance
+Indiana Jones and the Great Circle has received some recent negative attention for having relatively beefy system requirements, including calling for GPUs that have some form of real-time ray-tracing acceleration. We tested the game on a system with an Nvidia RTX 2080 Ti and an Intel i7-8700K CPU with 32 GB of RAM, which puts it roughly between the "minimum" and "recommended" specs suggested by the publisher.
+
+
+Trace those rays. Credit: Bethesda / MachineGames
+Despite this, we were able to run the game at 1440p resolution and "High" graphical settings at a steady 60 fps throughout. The game did occassionally suffer some heavy frame stuttering when loading new scenes, and far-off background elements had a tendency to noticeably "pop in" when running, but otherwise, we had few complaints about the graphical performance.
