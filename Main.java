@@ -5,12 +5,40 @@ import java.util.*;
 public class Main {
     public static void main(String[] args){
         String[] trainingDataFiles = {"J.Brodkin.txt", "K.Orland.txt", "J.Ouellette.txt", "J.Timmer.txt", "A.Cunningham.txt"};
+        String[] testDataFiles = {"test1.txt", "test2.txt", "test3.txt", "test4.txt", "test5.txt"};
+
+
+        ArrayList<Map<String, Float>> scoreArr = getScoreArr(trainingDataFiles);
+
+        float[] scores = new float[5];
+        
+        String testFile = readFile("TestData/" + testDataFiles[2]);
+        String[] words = testFile.toLowerCase().split("\\s+");
+        for (int i = 0; i < 5; i++) {
+            Map<String, Float> scoreMap = scoreArr.get(i);
+
+            
+            for (int n = 0; n < words.length; n++) {
+                if (scoreMap.containsKey(words[n])) scores[i] += scoreMap.get(words[n]);
+            }
+        }
+
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println(scores[i]);
+        }
+
+    }
+
+    public static ArrayList<Map<String, Float>> getScoreArr(String[] trainingDataFiles) {
         ArrayList<Map<String, Integer>> frequencyArr = new ArrayList<Map<String, Integer>>();
         
         for (String file : trainingDataFiles) {
             String data = readFile("TrainingData/" + file);
             frequencyArr.add(getWordFrequencies(data));
+
+
         }
+        System.out.println(frequencyArr.get(3));
 
         ArrayList<Map<String, Float>> scoreArr = new ArrayList<Map<String, Float>>();
         
@@ -30,8 +58,8 @@ public class Main {
             scoreArr.add(scoreMap);
         }
 
-        System.out.println(scoreArr);
-    }
+        return scoreArr;
+    } 
 
     public static int getTotalinAuthor(Map<String, Integer> frequencyMap) {
         int total = 0;
@@ -56,8 +84,7 @@ public class Main {
     }
 
     public static float calculateScore(int freq, int totalInAuthor, int totalInAll) {
-        System.out.println((float) freq/totalInAuthor);
-        return ((float) freq / totalInAuthor) * ((float) freq / totalInAll);
+        return ((float) freq / totalInAuthor);
     }
 
     public static Map<String, Integer> getWordFrequencies(String inputString) {

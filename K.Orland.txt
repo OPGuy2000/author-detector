@@ -1,264 +1,296 @@
-Are LLMs capable of non-verbal reasoning?
-Processing in the "latent space" could help AI with tricky logical questions.
+Since the Sandy Hook shooting last month and the national gun control debate it has reignited, there has been plenty of controversy over whether video games and violent media in general are a convenient distraction for the gun lobby or an area worthy of more study. But of all the thousands of words expended on the topic, the ones uttered by US Senator Lamar Alexander (R-TN) take the video game blame game to a whole new level.
 
-Kyle Orland – Dec 12, 2024 4:55 PM |  292
 
-It's thinking, but not in words. Credit: Getty Images
+Speaking with NBC News' Chuck Todd this morning, Alexander responded to a question about universal background checks with this amazing non-sequitur:
 
-Large language models have found great success so far by using their transformer architecture to effectively predict the next words (i.e., language tokens) needed to respond to queries. When it comes to complex reasoning tasks that require abstract logic, though, some researchers have found that interpreting everything through this kind of "language space" can start to cause some problems, even for modern "reasoning" models.
 
-Now, researchers are trying to work around these problems by crafting models that can work out potential logical solutions completely in "latent space"—the hidden computational layer just before the transformer generates language. While this approach doesn't cause a sea change in an LLM's reasoning capabilities, it does show distinct improvements in accuracy for certain types of logical problems and shows some interesting directions for new research.
+I think video games is a bigger problem than guns, because video games affect people. But the First Amendment limits what we can do about video games and the Second Amendment to the Constitution limits what we can do about guns.
 
-Wait, what space?
-Modern reasoning models like ChatGPT's o1 tend to work by generating a "chain of thought." Each step of the logical process in these models is expressed as a sequence of natural language word tokens that are fed back through the model.
 
-In a new paper, researchers at Meta's Fundamental AI Research team (FAIR) and UC San Diego identify this reliance on natural language and "word tokens" as a "fundamental constraint" for these reasoning models. That's because the successful completion of reasoning tasks often requires complex planning on specific critical tokens to figure out the right logical path from a number of options.
+First off, bonus points to Alexander right off the bat for mentioning gaming's First Amendment protections in practically the same breath as its supposed harms. That already puts him a step ahead of people like Missouri state Rep. Diane Franklin and others who want to single out violent video games for a tax that is likely unconsitutional. The comparison between the First Amendment and the Second Amendment here is actually a pretty good rhetorical flourish, and it's an interesting way of trying to convince traditional anti-gun advocates to see the gun-rights position from a different perspective (though I doubt it will change many people's minds in and of itself).
 
 
-A figure illustrating the difference between standard models going through a transformer after every step and the COCONUT model's use of hidden, "latent" states. Credit: Training Large Language Models to Reason in a Continuous Latent Space
-In current chain-of-thought models, though, word tokens are often generated for "textual coherence" and "fluency" while "contributing little to the actual reasoning process," the researchers write. Instead, they suggest, "it would be ideal for LLMs to have the freedom to reason without any language constraints and then translate their findings into language only when necessary."
+That little turn of phrase doesn't excuse the first part of the statement, though. The obvious implication of worrying more about games "because they affect people" is that guns have no effect on people—a dubious proposition, at best.
 
-Ars Video
-How The Callisto Protocol's Gameplay Was Perfected Months Before Release
 
-To achieve that "ideal," the researchers describe a method for "Training Large Language Models to Reason in a Continuous Latent Space," as the paper's title puts it. That "latent space" is essentially made up of the "hidden" set of intermediate token weightings that the model contains just before the transformer generates a human-readable natural language version of that internal state.
+Even excepting that, though, the term "affect people" is so wishy washy here that it becomes practically meaningless. Yes, games do affect people, just like any work of art. But as the Supreme Court pointed out in its ruling granting games First Amendment protection, the demonstrated effects of violent games on youth in the scientific literature "are both small and indistinguishable from effects produced by other media."
 
 
+Yet if Alexander had said, "I think TV is a bigger problem than guns, because TV affects people," he'd have been laughed out of the room. That's because TV has been an established part of the cultural landscape for the entire memory of almost every person alive today. Thus, TV's effects, both good and bad, are a well-known quantity to practically everyone. Video games, on the other hand, are still seen as a new and hard-to-understand media bogeyman by many of the elderly voters who vote in disproportionate numbers and, consequently, by many of the politicians they help put in office.
 
-In the researchers' COCONUT model (for Chain Of CONtinUous Thought), those kinds of hidden states are encoded as "latent thoughts" that replace the individual written steps in a logical sequence both during training and when processing a query. This avoids the need to convert to and from natural language for each step and "frees the reasoning from being within the language space," the researchers write, leading to an optimized reasoning path that they term a "continuous thought."
 
-Being more breadth-minded
-While doing logical processing in the latent space has some benefits for model efficiency, the more important finding is that this kind of model can "encode multiple potential next steps simultaneously." Rather than having to pursue individual logical options fully and one by one (in a "greedy" sort of process), staying in the "latent space" allows for a kind of instant backtracking that the researchers compare to a breadth-first-search through a graph.
+The fact is that we will probably have to put up with people in power making ridiculous statements like this for at least a decade or two more. But don't despair, gamers. There will come a time when we will have a president not much older than Mortal Kombat and a ruling class that grew up knowing the gaming medium was just one of a long line of moral panic scapegoats whose history can be traced back to the novel (PDF). Until then, just learn to accept these kinds of statements as part of the political background noise, and save your rage for the lawmakers who are actually trying to limit your freedoms.
 
-This emergent, simultaneous processing property comes through in testing even though the model isn't explicitly trained to do so, the researchers write. "While the model may not initially make the correct decision, it can maintain many possible options within the continuous thoughts and progressively eliminate incorrect paths through reasoning, guided by some implicit value functions," they write.
 
+ARS TECHNICA TEXT 2
 
-A figure highlighting some of the ways different models can fail at certain types of logical inference. Credit: Training Large Language Models to Reason in a Continuous Latent Space
-That kind of multi-path reasoning didn't really improve COCONUT's accuracy over traditional chain-of-thought models on relatively straightforward tests of math reasoning (GSM8K) or general reasoning (ProntoQA). But the researchers found the model did comparatively well on a randomly generated set of ProntoQA-style queries involving complex and winding sets of logical conditions (e.g., "every apple is a fruit, every fruit is food, etc.").
 
-For these tasks, standard chain-of-thought reasoning models would often get stuck down dead-end paths of inference or even hallucinate completely made-up rules when trying to resolve the logical chain. Previous research has also shown that the "verbalized" logical steps output by these chain-of-thought models "may actually utilize a different latent reasoning process" than the one being shared.
+After Bethesda revealed the "entirely online" Fallout 76 at E3 earlier this year, some franchise fans worried the new game would feel uncomfortably different from the story-driven, single-player post-apocalyptic action they know and love. After playing the game for about three hours at a preview event last week, I came away feeling like I was playing an elaborate Fallout 4 mod with some basic online features grafted on top.
+Our preview experience started inside Vault 76 itself, an extremely messy space still reeling from a party celebrating the residents' impending departure into the post-nuclear wasteland of West Virginia. In the vault itself I could only see and talk to my three fellow team members as we all got our gear and viewed some basic tutorial content.
 
-This new research joins a growing body of research seeking to understand and exploit the way large language models work at the level of their underlying neural networks. And while that kind of research hasn't led to a huge breakthrough just yet, the researchers conclude that models pre-trained with these kinds of "continuous thoughts" from the get-go could "enable models to generalize more effectively across a wider range of reasoning scenarios."
-Itch.io platform briefly goes down due to “AI-driven” anti-phishing report
-Domain registrar failed to respond after offending content was taken down.
 
-Kyle Orland – Dec 9, 2024 12:25 PM |  48
+Once we stepped out of the vault, though, there were dozens of other survivors, all on their own teams, milling about and throwing built-in gestures to each other before setting off. Those gestures turn out to be the only way to directly communicate with players that aren't on my team, making the presence of so many other survivors feel like more of a nuisance than a meaningful addition off the bat (Bethesda developers on hand said voice chat with nearby non-team members was being worked on for post-launch).
 
-Losing your domain is even worse when that domain is your entire brand. Credit: Itch.io
 
-Popular indie game platform itch.io says its domain was briefly taken down for a few hours Monday morning thanks to an "AI-driven" phishing report spurred by the company behind Funko Pop figures.
+Teamwork makes the dream work
+To start, our team mostly ignored our fellow survivors and hiked into the West Virginia wilderness on our own. While the entire world was wide open to us, we generally hewed to the breadcrumb trail of a main quest line, which focused on finding a mysterious "overseer" leaving cryptic clues to her location. On the way, there was a lot of the usual foraging for survival materials, battling with mutated animal and zombie-like human antagonists, and discovering distracting side-quests.
 
-Itch.io management posted about the domain takedown on social media overnight, complaining of a chain of events that started because "Funko of 'Funko Pop'... use some trash 'AI Powered' Brand Protection Software called BrandShield that created some bogus Phishing report to our registrar, iwantmyname, who ignored our response and just disabled the domain," the post said.
 
-In a Hacker News comment, Itch.io founder Leaf "Leafo" Cohran said that the BrandShield complaint seems to have originated from a single itch.io user who "made a fan page for an existing Funko Pop video game (Funko Fusion), with links to the official site and screenshots of the game." That led to independent reports to Itch's host and registrar of "fraud and phishing" a few days ago.
+Graphical concerns
+Here at Ars, we try not to focus too much on aesthetic concerns when evaluating pre-release code, since a lot of final polish can still happen before a game is released. That said, the build of Fallout 76 that we played on the Xbox One X at this preview event suffered from some major, frequent frame rate dips in numerous situations. In both third- and first-person modes, we noticed significant screen-tearing and stuttering in a variety of not-too-strenuous situations.
 
-Ars Video
-What Happens to the Developers When AI Can Code? | Ars Frontiers
 
-While Cochran says the offending page was taken down immediately after the complaints were filed, he suspects the initial complaint meant "our registrar's automated system likely kicked to disable the domain since no one read our confirmation of removal."
+There's still time for these kinds of technical concerns to be fixed, of course. But with a large beta launching later this month and a final release planned for November 14, that time is running low...
 
 
+While the basic gameplay will feel extremely familiar to anyone who has played Fallout 4, working together as a team brings its own particular quirks. In battles, for instance, experience points are shared between all players who were able to get at least one shot in on the enemy. Every team member will be able to loot that dead enemy (and other item storage locations) individually, and each one gets their own semi-random set of items from that looting (based on their character level).
+Having a full team of characters with different skills opened up the gameplay in some interesting ways at points. If one player had a strong lock-picking skill, for instance, they could unlock a safe and give everyone else access to what was inside. If another player buffed up their charisma, they were able to share perk cards with everyone on the team.
 
-The itch.io domain was back up and running by 7 am Eastern, according to media reports, "after the registrant finally responded to our notice and took appropriate action to resolve the issue." Users could access the site throughout if they typed the itch.io IP address into their web browser directly.
 
-Too strong a shield?
+In one memorable dungeon, a mindless Super Mutant started firing at us from inside a locked cage, and we couldn't fire back until we unlocked it. The entire team started scrambling to look for the hidden code to unlock the door. When one team member found it, he read it off to another near the door, who opened it to allow for a third teammate to get the immediate critical headshot. Go team!
 
-Credit: Brandshield
-BrandShield's website describes it as a service that "detects and hunts online trademark infringement, counterfeit sales, and brand abuse across multiple platforms.” The company claims to have multiple Fortune 500 and FTSE100 companies on its client list.
 
-In its own series of social media posts, BrandShield said its "AI-driven platform" had identified "an abuse of Funko... from an itch.io subdomain." The takedown request it filed was focused on that subdomain, not the entirety of itch.io, BrandShield said.
+Working as a team has an effect on how you get around as well. Each team member can build their own Fallout 4-style camp, complete with places to rest, fires to cook food and purify water, and workbenches to convert foraged scrap items into useful items (not to mention fences and turrets to protect against antagonists). Team members can fast-travel to anyone else's camp for free, encouraging teammates to spread out their bases around the massive map. You can fast-travel to the team leader for free as well, but warping to other discovered locations (or fellow teammates) requires spending in-game caps.
 
-"The temporary takedown of the website was a decision made by the service providers, not BrandShield or Funko."
 
-The whole affair highlights how the delicate web of domain registrars and DNS servers can remain a key failure point for web-based businesses. Back in May, we saw how the desyncing of a single DNS root server could cause problems across the entire Internet. And in 2012, the hacking collective Anonymous highlighted the potential for a coordinated attack to take down the entire DNS system.Win hardware, collectibles, and more in the 2024 Ars Technica Charity Drive
-Help yourself to prizes by helping us raise money for good causes.
+Playing live with other people also brings changes to the V.A.T.S. system, which now operates in real time. Tapping the V.A.T.S. button in combat still brings up the usual green-highlighted limb-targeting system (using the right stick to change your aim), but both you and the target continue to move at full speed as you try to maximize the displayed chance at a successful shot. In my short time trying, the whole thing felt pretty cumbersome, and it was a lot harder than usual to get those high-percentage shots off. In any case, players who want to slow down and consider their shots are out of luck here.
 
-Kyle Orland – Dec 9, 2024 7:00 AM |  41
 
-Just some of the prizes you can win in this years Ars Technica Charity Drive sweepstakes Credit: Kyle Orland
+In general, though, wandering around the wasteland with three other people is a lot less lonely than the usual Fallout experience. Everything from multiplayer battles to scrounging for items or figuring out clues feels more dynamic and engaging with other people joining in. While it feels like you could play Fallout 76 by yourself, I'm not sure I'd really want to after playing with a group.
 
-It's once again that special time of year when we give you a chance to do well by doing good. That's right—it's time for the 2024 edition of our annual Charity Drive!
 
-Every year since 2007, we've encouraged readers to give to Penny Arcade's Child's Play charity, which provides toys and games to kids being treated in hospitals around the world. In recent years, we've added the Electronic Frontier Foundation to our charity push, aiding in their efforts to defend Internet freedom. This year, as always, we're providing some extra incentive for those donations by offering donors a chance to win pieces of our big pile of vendor-provided swag. We can't keep it, and we don't want it clogging up our offices, so it's now yours to win.
+Apocalypse is other people
+Outside of my three teammates, the presence of all those other people on the server became most relevant during a few timed, server-wide events, which tasked everyone in the area with taking on a huge horde of enemies in a marked section of the map. The idea is for everyone from disparate teams to come together against the challenge and share in the big dump of experience points when complete. It all felt a little hollow, though, thanks in part to the limited communication options between teams.
 
-This year's swag pile is full of high-value geek goodies. We have dozens of prizes valued at over $4,000 total, including gaming hardware and collectibles, computer accessories, apparel, and more. In 2023, Ars readers raised nearly $40,000 for charity, contributing to a total haul of more than $506,000 since 2007. We want to raise even more this year, and we can do it if readers dig deep.
 
-How it works
-Donating is easy. Simply donate to Child's Play using a credit card or PayPal or donate to the EFF using PayPal, credit card, or cryptocurrency. You can also support Child's Play directly by using this Ars Technica campaign page or picking an item from the Amazon wish list of a specific hospital on its donation page. Donate as much or as little as you feel comfortable with—every little bit helps.
+Players from different teams can trade items with each other via in-game menus, and there were a few high-level Bethesda developers on the server that were eager to essentially gift us some wacky in-game outfits for the event. In the live game, though, I'm guessing the player base will have fewer benevolent traders and more determined griefers eager to try to ruin the experience of their fellow players.
 
-Ars Video
-How Scientists Respond to Science Deniers
 
-Once that's done, it's time to register your entry in our sweepstakes. Just grab a digital copy of your receipt (a forwarded email, a screenshot, or simply a cut-and-paste of the text) and send it to ArsCharityDrive@gmail.com with your name, postal address, daytime telephone number, and email address by 11:59 pm ET Wednesday, January 2, 2025. (One entry per person, and each person can only win up to one prize. US residents only. NO PURCHASE NECESSARY. See Official Rules for more information, including how to enter without making a donation. Also, refer to the Ars Technica privacy policy (https://www.condenast.com/privacy-policy).
+Combat between players doesn't unlock until level 5, thankfully, so the initial moments out of the vault aren't a deluge of experimental bullets. Even after that point, shooting another player that's not on your team only does extremely minor "chip damage," regardless of the weapon or relative character levels of the two players involved. This makes it quite difficult to outright murder another player that doesn't want to be killed. When that does happen, however, the murderer gets marked prominently on the map and becomes susceptible to lucrative revenge killings from anyone else on the server.
 
 
+True PvP combat only starts if the griefer's target fires back at their assailant, at which point it's kill or be killed with full damage potential. The stakes for these PvP battles seem pretty low, though—the victor simply gets to pick up a bag containing whatever scrap the killed player was carrying at the time (the stakes of death against the environment seem similarly low—it seems relatively easy to simply respawn to your team leader, pick up your scrap, and move on as if nothing happened). There's also a default "pacifist mode" to prevent players from accidentally shooting back at their assailants and inadvertently initiating a battle.
 
-We'll then contact the winners and have them choose their prize by January 31, 2025 (choosing takes place in the order the winners are drawn).
 
-The prizes
-Here are quick descriptions of some of the biggest, most desirable prizes in this year's lineup. See the next page for a complete list of the available prizes.
+Bethesda seems to have put a lot of thought into preventing trolling, but we're sure determined players will still find a way to be a nuisance to fellow players—setting off nearby enemy sentries during stealth sections, perhaps. The potential for these kinds of negative experiences, combined with the general lack of positives we can see from having a wider server population, already has us looking forward to the planned post-launch rollout of private servers that we can roam alone in small, unbothered cooperative teams.
 
-Magic: The Gathering prize packs
 
-Wizards of the Coast continues to crank out set after set of news cards in this collectible game that has only gotten more popular since its 1993 debut. This year, we have two packages of decks and booster packs from the Duskmourn: House of Horrors and Foundations sets, each with enough cards to dominate the competition.
+What's the story?
+A three-hour preview isn't enough to get a feel for the grand sweep of Fallout 76's story, which the developers said will take dozens of hours to complete. That said, we did get a feel for how the online game would change the series' storytelling structure.
 
-UGreen NASync drive enclosures
- 
 
+The most striking difference is the lack of other non-mutated humans in the game. Since the players themselves represent the first vault-dwellers to ever leave the safety of a shelter, there's a distinct lack of non-player characters to move the story along. Instead, there are a lot of Bioshock-style holotapes to find, telling the stories of the people who survived the war initially but eventually perished to the fallout.
 
-Here at Ars, we've long expounded on the benefits of backing up your data locally on a Network Attached Storage Server. This year, we have two high-end UGreen NASync drive enclosures to jumpstart your own home NAS solution.
 
-Atari 7800+ VIP package
+There were a lot of nods toward this kind of environmental storytelling in our short preview. You'll stumble on a town and slowly unravel what happened to its citizens in the wake of nuclear war by listening to tapes and finding bits and pieces left behind by the long-gone citizens. Robotic shop-keepers and assistants are also around to help fill in the gaps, as are the usual messages and other detritus found on terminals.
 
-Credit: Kyle Orland
-For our review of this no-frills piece of retro gaming hardware, Atari sent us a VIP package complete with the system, two controllers, and a set of eight complete games from its modern cartridge series. The whole package comes in a collectible case that can all be yours if you enter this year's sweepstakes.
-Homey Pro
 
+At the end of our preview, we got to see a sample of what a nuclear launch looked like in the game. High-level characters will eventually be able to launch these on the maps themselves, irradiating a sizable portion of the map for three hours (and killing anyone not smart or fast enough to get away from the telegraphed blast). A lot of the end-game content will focus on these nuclear blasts, the developers on hand said, with those strong enough to survive the radiation zone hunting powerful Scorch Beasts and finding the most powerful weapons and gear.
 
-In our review of this smart home automation puck, we called it "best in class" for a certain type of home automation enthusiast who's interested in tweaking it to their particular use case. You can be one of these people if you win this Homey Pro in this year's sweepstakes.
 
-None of the big prizes grabbing your attention? Check out the next page for a full list of prizes you can win by entering!
+The developers were also quick to note that this is not Fallout 5, a game that is still being planned as the traditional single-player, story-driven adventure. The implication, it seems, is that not everyone may enjoy the additional focus on survival and teamwork of this online experiment. After this quick preview, we're looking forward to seeing more fully how that experiment shakes out next month.
 
-The prizes
-Apparel
-Convai t-shirt (Next Level Apparel, black, Medium)
-Jaguar Formula E baseball cap and long-sleeve top
-Le Remarquable bike helmet (cream)
-Parcel Corps branded bicycle cap (Powerhouse Sport)
-Resolution Games branded neckerchief
-Scout Motors baseball cap + tote bag
-VW ID Buzz cap + tie-die dishtowel
-Collectibles/other
-Balatro Special Edition (Switch)
-Bentley keyring
-Luxray Funko Pop
-Magic the Gathering Duskmourn collection (Play Booster box, collector booster packs x 6, Endless Punishment Commander deck, Death Toll commander deck)
-Magic the Gathering Foundations collection (Play booster box, collectors booster x 6)
-Nintendo Switch prize pack (Stanley cup + branded pen + reusable vinyl bag + popsocket)
-On Your Tail acrylic mini-diorama
-Polestar notebook and pen
-Tencent QQ Family penguin plush
-Tetris Augmented Reality logo pin (Pinfinity)
-Zenless Zone Zero media kit (mousepad, fridge magnets, switch game case, acrylic stand, postcards, character badges)
-Hardware and accessories
-Anker 622 Magnetic Battery (MagGo, blue, used)
-Atari 400 Mini
-Atari 7800+ VIP package (w/ eight games) (used)
-Bellroy Tech Kit (bronze, used)
-Crkd Nitro Deck Switch holder (Retro Mint color, used)
-Homey Pro + ethernet dongle (used)
-Nintendo Alarmo
-UGreen NASync DXP2800 (w/ 2 WED Red drives, used)
-UGreen NASync DXP480T Plus (no drives included)
-Related Stories
-Indiana Jones and the Great Circle is pitch-perfect archaeological adventuring
-Review: Amazing open-world environs round out a tight, fun-filled adventure story.
 
-Kyle Orland – Dec 5, 2024 7:00 PM |  104
+ARS TECHNICA TEXT 3
+Originally announced way back in 2014 for a 2016 launch, Crackdown 3 has certainly taken its time in finally reaching Xbox One and Windows PC players this week. Despite all that time in the proverbial oven, though, Crackdown 3 comes out feeling dated and half-baked—though it's still a fun world to jump around in.
+This time around, the super-powered agents of, uh, The Agency, are unleashing their carnage-filled version of justice on the secluded city of New Providence. The metropolis is controlled by Terra Nova, an immensely powerful corporation that apparently organized a blackout of every major city in the world (and incinerated most of the Agency agents dispatched to stop them) in order to attract new citizens to their futuristic haven. Once there, though, these refugees find they're forced to exist as impoverished grist for Terra Nova's economic mill, enriching company executives who live in relative opulence.
 
-No need to put Harrison Ford through the de-aging filter here! Credit: Bethesda / MachineGames
 
-Game details
-Developer: MachineGames
-Publisher: Bethesda Softworks
-Platform: Windows (reviewed), Xbox Series S/X, PS5 (planned for April)
-Release Date: Dec. 9, 2024
-ESRB Rating: T for Teen
-Price: $70
-Links: Amazon | Steam | Official Website
+The stratified architecture found in the different regions of New Providence provides some important grounding for the battle between the haves and have-nots that the Agency finds itself in. For the most part, though, the game is annoyingly blunt about telling—rather than showing—how your actions are inspiring the proletariat to "rise up" against their authoritarian masters (throwing in plenty of "edgy-for-a-thirteen-year-old" random cursing along the way).
 
-Historically, games based on popular film or TV franchises have generally been seen as cheap cash-ins, slapping familiar characters and settings on a shovelware clone of a popular genre and counting on the license to sell enough copies to devoted fans. Indiana Jones and the Great Circle clearly has grander ambitions than that, putting a AAA budget behind a unique open-world exploration game built around stealth, melee combat, and puzzle solving.
 
-Building such a game on top of such well-loved source material comes with plenty of challenges. The developers at MachineGames need to pay homage to the source material without resorting to the kind of slavish devotion that amounts to a mere retread of a familiar story. At the same time, any new Indy adventure carries with it the weight not just of the character's many film and TV appearances but also well-remembered games like Indiana Jones and the Fate of Atlantis. Then there are game franchises like Tomb Raider and Uncharted, which have already put their own significant stamps on the Indiana Jones formula of action-packed, devil-may-care treasure-hunting.
+Free some dissidents from jail, for instance, and a voice in your ear immediately tells you how they will help "take the fight to Terra Nova." But I can only recall one time in my play-through when I actually saw citizens taking up arms against their corporate masters (rather ineffectually, I might add). Shut down a mining operation for Chimera—a poisonous weapon Terra Nova gathers for vast profits—and you're reminded how it will disrupt the company's plans without ever really seeing that effect in the city itself.
 
 
-No, this is not a scene from a new Uncharted game. Credit: Bethesda / MachineGames
-Surprisingly, Indiana Jones and the Great Circle bears all this pressure pretty well. While the stealth-exploration gameplay and simplistic puzzles can feel a bit trite at points, the game's excellent presentation, top-notch world-building, and fun-filled, campy storyline drive one of Indy's most memorable adventures since the original movie trilogy.
+The plot takes some pains to try to set up a relatable critique of income inequality and the power-distorting effects of runaway capitalism but only manages it in the most ham-fisted and nuance-free way. The handful of company higher-ups that serve as bosses are, to a person, cliche-filled scenery-chewing bad guys who monomaniacally want to amass power. They all scream and snarl their way through extremely hackneyed lines; one literally says they "just want to watch the world burn" at one point. Another echoes Mengele in his desire to conduct Chimera experiments on "lesser" people.
 
-A fun-filled adventure
-The year is 1937, and Indiana Jones has already Raided a Lost Ark but has yet to investigate the Last Crusade. After a short introductory flashback that retells an interactive version of Raiders of the Lost Ark's famous golden idol extraction, Professor Jones gets unexpectedly drawn away from preparations for midterms when a giant of a man breaks into Marshall College's antiquities wing and steals a lone mummified cat.
 
-Ars Video
-How The Callisto Protocol's Gameplay Was Perfected Months Before Release
+Run and jump
+You probably didn't come to a new Crackdown game for a nuanced story, though. At its heart, Crackdown 3 isn't that different from the two open-world run-and-gun titles that preceded it. You're still completing objectives that are all variations on killing enemy agents, blowing things up, or getting quickly from point A to point B.
 
-Investigating that theft takes Jones on a globetrotting tour of locations along "The Great Circle," a ring of archaeologically significant sites around the world that house ancient artifacts rumored to hold great and mysterious power. Those rumors have attracted the attention of the Nazis (who else would you expect?), dragging Indy into a race to secure the artifacts before they threaten to alter the course of an impending world war.
 
+As with those earlier titles, what really sets Crackdown 3 apart from the open-world pack is the locomotion. You start with an extremely floaty jump that lets you ascend three or four times your height and cover dozens of yards in a single leap. As the game progresses your running and jumping capabilities get faster and higher, with the added bonus of triple jump jetpack assistance and the ability to string two quick air dashes to add speed and distance in mid-air.
 
 
+The sheer freedom of movement for a leveled-up agent brings to mind the best parts of traversing a game like Spider-Man or the Batman: Arkham games, but with less complexity. I will say, though, that I'd kill for a decent wall-jump ability to be added to the free-moving repertoire here. Sliding ineffectually down a wall just feels sad after a huge, city-clearing jump.
 
-You see a whip, I see a grappling hook. Credit: Bethesda / MachineGames
-The game's overarching narrative—told mainly through lengthy cut scenes that serve as the most captivating reward for in-game achievements—does a pitch-perfect job of replicating the campy, madcap, fun-filled, adventurous tone Indy is known for. The writing is full of all the pithy one-liners and cheesy puns you could hope for, as well as countless overt and subtle references to Indy movie moments that will be familiar to even casual fans.
 
-Indy here is his usual mix of archaeological superhero and bumbling everyman. One moment, he's using his whip and some hard-to-believe upper body strength to jump around some quickly crumbling ruins. The next, he's avoiding death during a madcap fight scene through a combination of sheer dumb luck and overconfident opposition. The next, he's solving ancient riddles with reams of historical techno-babble and showing a downright supernatural ability to decipher long-dead languages in an instant when the plot demands it.
+Improving your mobility means finding glowing green agility orbs, hundreds of which are peppered throughout the city. They're so numerous you'll likely stumble across plenty on your way to completing other objectives, but hunting down the well-hidden, out-of-the-way ones ends up being the game's greatest joy. I would often explicitly ignore whatever nearby location the game wanted me to blow up just to aimlessly explore the well-arranged architecture, leaping from rooftop to rooftop searching out more orbs, which would make it even easier to jump to more rooftops for more orbs.
 
 
-You have to admit it, this circle is pretty great! Credit: Bethesda / MachineGames
-It all works in large part thanks to Troy Baker's excellent vocal performance as Jones, which he somehow pulls off as a compelling cross between Harrison Ford and Jeff Goldblum. The music does some heavy lifting in setting the tone, too; it's full of downright cinematic stirring horns and tension-packed strings that fade in and out perfectly in sync with the on-screen action. The game even shows some great restraint in its sparing use of the famous Indiana Jones theme, which I ended up humming to myself as I played more often than I actually heard it referenced in the game's score.
+There are a few flies in this smooth run-and-jump ointment, though. Most notably, the game can be extremely touchy about letting you grab onto ledges unless you're perfectly aligned with the grab point. Your agent will also sometimes get stuck on a piece of architecture as they try to ascend, adding an annoying hitch to the traversal. And trying to land on a small platform can be a bit cumbersome, thanks to a too-close camera angle that requires constant mid-air adjustment to align your landing view.
 
-Indy quips well off of Gina, a roving reporter searching for her missing sister who serves as the obligatory love interest/globetrotting exploration partner. But the game's best scenes all involve Emmerich Voss, the Nazi archaeologist antagonist who makes an absolute meal out of his scenery chewing. From his obsession with cranial shapes to his preening diatribes about the inferiority of American culture, Voss makes the perfect foil for Indy's no-nonsense, homespun apple pie forthrightness.
 
+Less than explosive combat
+If the movement has occasional annoyances, though, the combat only has occasional moments of non-annoyance. First among the problems is the finicky lock-on system, which is key to focusing fire amid the chaos. The lock-on rarely worked as seamlessly as I'd have expected. Sometimes I'd jam on the lock-on button when staring right at an enemy only to have nothing happen. Other times I'd lock on to another far-off enemy that I didn't mean to target. Then there were times I'd lock on to far-off objects for no reason, without even hitting the targeting button. This made combat much more of a chore than it should have been.
 
 
+Multiplayer mayhem
+Before launch, Ars was given a couple of hours to try out Crackdown 3's online multiplayer "Wrecking Zone" mode. The most interesting bit here is the extremely destructible environments, which Microsoft says are powered by its Azure server architecture. Cutting out holes in walls and feeling the ground crumble beneath your feet adds an interesting twist to the otherwise pretty bog-standard team-based games of Agent Hunter (read: Deathmatch) and Territories (read: Hardpoint).
+There's definitely some appeal in being able to use jump pads and aerial locomotion to get the drop on the opposing team from high above. And the lock-on system provides a bit of important directional warning when an enemy is targeting you, giving you more chance to escape or turn and fight than some shooters. Our brief time testing left us interested in trying more after launch.
 
-Voss steals literally every scene he's in. Credit: Bethesda / MachineGames
-By the time the plot descends into an inevitable mess of pseudo-religious magical mysticism, it's clear that this is a story that doesn't take itself too seriously. You may cringe a bit at how over the top it all gets, but you'll probably be having too much fun to care.
 
-Take a look around
-In between the cut scenes—which together could form the basis for a strong Indiana Jones-themed episodic streaming miniseries—there's an actual interactive game to play here as well. That game primarily plays out across three decently sized maps—one urban, one desert, and one water-logged marsh—that you can explore relatively freely, broken up by shorter, more linear interludes in between.
+The real problem with the combat, though, is its general lack of any feeling of impact. Both hitting and being hit by enemies often feels utterly weightless, with only a slowly reducing health bar and a small red arrow or damage number indicating anything has happened (the too-close over-the-shoulder camera, which makes it hard to gauge attacks coming from behind, doesn't help). Enemies will take melee attacks without budging until they die, then suddenly go flying like rag dolls. Even a huge boulder thrown by an opposing mech lands with all the force of a wet ball of toilet paper.
 
-Following the main story quests in each of these locales generally has you zigzagging across the map through a series of glorified fetch quests. Go to location A to collect some mystical doodad, then return it to unlock some fun exposition and a reason to go to location B. Repeat as necessary.
 
-I say "point A" there, but it's usually more accurate to say the game points you toward "circle A" on the map. Once you get there, you often have to do a bit of unguided exploring to find the hidden trinket or secret entry point you need.
+Then there are the enemies themselves—all reliably dumb as dirt. Most will just stand or shuffle around ineffectively, firing when you get in range. Not that I can exactly blame them; Crackdown 3 environments for the most part aren't really built around taking cover or even dodging effectively. Instead, you're more or less expected to run in and take out enemies as quickly as possible while soaking up their return fire like a sponge. Each enemy downed gives orbs that refill your shield in proportion to their difficulty, so as long as you're constantly killing something in the immediate vicinity, you're practically invincible.
 
 
-Am I going in the right direction? Credit: Bethesda / MachineGames
-At their best, these exploration bits made me feel more like an archaeological detective than the usual in-game tourist blindly following a waypoint from location to location. At its worst, I spent 15 minutes searching through one of these map circles before finding my in-game partner Gina standing right next to the target I was probably intended to find immediately. So it goes.
+Success, then, depends on your ability to efficiently take out whatever enemies are nearby. Your ability to take out enemies in turn depends heavily on how much you've leveled up your various skills. The more you use explosives, guns, and melee attacks, the stronger those types of attacks become. The game accounts for this by scattering the same handful of enemy types across the map, but at highly variable power levels.
 
-Traipsing across the map in this way slowly reveals the sizable scale of the game's environments, which often extend beyond what's first apparent on the map to multi-floor buildings and gigantic subterranean caverns. Unlocking and/or figuring out all of the best paths through these labyrinthine locales—which can involve climbing across rooftops or crawling through enemy barracks—is often half the fun.
 
+This has the odd side effect of essentially putting you in charge of your own difficulty curve. Each objective is marked on the map with its own "chance of success," measuring how over or underpowered you are for the challenge on offer. Go in to an objective with a 20 percent chance of success, and a couple of enemy attacks will quickly down you. Go in with an 80 percent chance of success, and even powerful attacks will bounce off your toughened armor as you tear through enemies like they're made of tissue paper.
 
 
-As you crisscross the map, you also invariably stumble on a seemingly endless array of optional sidequests, mysteries, and "fieldwork," which you keep track of in a dynamically updated journal. While there's an attempt at a plot justification for each of these optional fetch quests, the ones I tried ended up being much less compelling than the main plot, which seems to have taken most of the writers' attention.
+There's a sweet spot somewhere in the middle that hits just the right point on the challenge curve, where making your way through is tough but not impossible work. But the game's fully open map structure doesn't exactly guide you to the correct objectives at the right times. It's quite possible to unknowingly level past the appropriate "challenge point" for a number of the game's objectives (or stumble into objectives that are way beyond your current level). Sure, there's some visceral joy in tearing through enemies like a vengeful god, but being that overpowered gets old kind of fast.
 
 
-Indiana Jones, famous Vatican tourist. Credit: Bethesda / MachineGames
-As you explore, a tiny icon in the corner of the screen will also alert you to photo opportunities, which can unlock important bits of lore or context for puzzles. I thoroughly enjoyed these quick excuses to appreciate the game's well-designed architecture and environments, even as it made Indy feel a bit more like a random tourist than a badass archaeologist hero.
+When you're not dealing with combat-related annoyances, there is some fun to be had just running and jumping through Crackdown's brutally beautiful authoritarian world, looking for shiny orbs. It's too bad that this is only half of this half-baked game.
 
-Quick, hide!
-Unfortunately, your ability to freely explore The Great Circle's environments is often hampered by large groups of roaming Nazi and/or fascist soldiers. Sometimes, you can put on a disguise to walk among them unseen, but even then, certain enemies can pick you out of the crowd, something that was not clear to me until I had already been plucked out of obscurity more than a few times.
 
-When undisguised, you'll spend a lot of time kneeling and sneaking silently just outside the soldiers' vision cones or patiently waiting for them to move so you can sneak through a newly safe path. Remaining unseen also lets you silently take out enemies from behind, which includes pushing unsuspected enemy sentries off of ledges in a hilarious move that never, ever gets old.
+The Good
+* Beautiful architecture and a well-rendered futuristic metropolis
+* The sheer joy of triple-jumping and air-dashing
+* Hundreds of hidden orbs are a delight to hunt and find
+* Multiplayer mode has some intriguing twists on the usual team-based combat
+The Bad
+* Blunt storytelling constantly tells without showing
+* Frustrating combat with a wonky lock-on system
+* Brain-dead enemy AI leads to mindless action
+* Inconsistent challenge scaling can lead to disjointed difficulty spikes
+The Ugly
+* Hearing a voice in your ear saying "Ooooh, I like that weapon" for the 20th time
+Verdict: There are better ways to get your superhero action fix, but there are worse ones, too. Crackdown 3 is at least worth a try.
 
 
-They'll never find me up here. Credit: Bethesda / MachineGames
-When your sneaking skills fail you amid a large group of enemies, the best and easiest thing to do is immediately run and hide. For the most part, the enemies are incredibly inept in their inevitable pursuit; dodge around a couple of corners and hide in a dark alley and they'll usually quickly lose track of you. While I appreciated that being spotted wasn't an instant death sentence, the ease with which I could outsmart these soldiers made the sneaking a lot less tense.
+ARS TECHNICA TEXT 4
+Many people remember specific, weird things about September 11, 2001. For me, it was a headline about stamps tucked into the chaos.
 
 
+As I started to absorb the horror of the day through TV and online news sources that Tuesday morning, I noticed an odd inflection point highlighted on the Washington Post's list of "Top News" links. While the first three stories were blaring headlines about the terrorist attacks, I remember clearly that the fourth was a news brief about the threat of postal stamp rate increase, the last trivial story published before all other news got pushed aside indefinitely.
 
-If you get spotted by a group of just one or two enemy soldiers, though, it's time for some first-person melee combat, which draws heavy inspiration from the developers' previous work on the early '00s Chronicles of Riddick games. These fights usually play out like the world's most overdesigned game of Punch-Out!!—you stand there waiting for a heavily telegraphed punch to come in, at which point you throw up a quick block or dodge and then counter with a series of rapid, crunchy punches of your own. Repeat until the enemy goes down.
 
-You can spice things up a bit here by disarming and/or unbalancing your foes with your whip or by grabbing a wide variety of nearby objects to use as improvised melee weapons. After a while, though, all the fistfights start to feel pretty rote and unmemorable. The first time you hit a Nazi upside the head with a plunger is hilarious. The fifth time is a bit tiresome.
+I wanted to quickly share this lighthearted observation with my circle of friends, and in 2001 I only had one easy, surefire way to do that online. I brought up AOL Instant Messenger, opened the menu, and chose "Edit Profile." That's where I shared links to the Post's top four stories at the time and warned my friends not to miss the important postal news amid the other stuff going on (I also included a semi-apologetic note that I hoped the lighthearted joke would be a welcome distraction on such a dark day).
 
 
-It's always a good time to punch a Nazi. Credit: Bethesda / MachineGames
-While you can also pull out a trusty revolver to simply shoot your foes, the racket the shots make usually leads to so much unwelcome enemy attention that it's rarely worth the trouble. Aside from a handful of obligatory sections where the game practically forces you into a shooting gallery situation, I found little need to engage in the serviceable but unexciting gun combat.
+Looking back now, I realize that AIM profile was my first ephemeral blog. Going to college in the years before ubiquitous mobile text messaging and social media profiles, AIM's Away Messages and profile pages became a proto-social network for me and a group of peers looking for ways to keep easy tabs on each other. Friday's announcement that AIM would finally shut down after 20 years got me thinking about how we used it to share our status updates years before the online world would be dominated by Twitter, Facebook, and the constant newsfeed.
 
-And while The Great Circle is far from a horror game, there are a few combat moments of genuine terror with foes more formidable than the average grunt. I don't want to give away too much, but those with fear of underwater creatures, the dark, or confined spaces will find some parts of the game incredibly tense.
 
-Not so puzzling
-My favorite gameplay moments in The Great Circle were the extended sections where I didn't have to worry about stealth or combat and could just focus on exploring massive underground ruins. These feature some of the game's most interesting traversal challenges, where looking around and figuring out just how to make it to the next objective is engaging on its own terms. There's little of the Uncharted-style gameplay of practically highlighting every handhold and jump with a flashing red sign.
+Nice to meet you, what’s your screen name?
+My family got our first AOL account in 1996, when I was a freshman in high school. I don't recall using Instant Messaging for much in those days, aside from occasional consulting with colleagues working on my Super Mario Bros. fan site. My high school friends actually gravitated to ICQ and the school's Unix cluster to type messages to each other over dial-up modems.
 
 
+When I started college in late 2000, though, everyone I met seemed to have an AOL "screen name," which by that point didn't require a paid AOL account. Sharing that screen name became more common than sharing a phone number when meeting someone new, and AIM quickly became the default way to talk to people when you didn't want to pick up the phone (which, for me, was most of the time).
+It's hard to remember now just how freeing it was to be able to communicate instantly without the formality of an actual phone call. Carrying on multiple conversations at once, multitasking between chatting and "surfing the web," and pausing long enough to compose well-thought replies (but not so long that the recipient began to worry) were all brave new frontiers in communication through a much-too-heavy CRT monitor.
 
 
-When giant mechanical gears need placing, you know who to call! Credit: Bethesda / MachineGames
-These exploratory bits are broken up by some obligatory puzzles, usually involving Indiana Jones' trademark of unbelievably intricate ancient stone machinery. Arrange the giant stone gears so the door opens, put the right relic in the right spot, shine a light on some emblems with a few mirrors, and so on. You know the drill if you've played any number of similar action-adventure games, and you probably won't be all that engaged if you know how to perform some basic logic and exploration (though snapping pictures with the in-game camera offers hints for those who get unexpectedly stuck).
+Using AIM also meant mastering the etiquette of the Away Message. In the days before we were all tethered to an Internet-enabled device 24/7, we used Away Messages to let others know that we couldn't respond to an Instant Message, while still leaving the computer online in order to receive messages that could be viewed later.
 
-But even during the least engaging puzzles or humdrum fights in The Great Circle, I was compelled forward by the promise of some intricate ruin or pithy cut scene quip to come. Like the best Indiana Jones movies, there's a propulsive force to the game's most exciting scenes that helps you push past any brief feelings of tedium in between. Here's hoping we see a lot more of this version of Indiana Jones in the future.
 
-A note on performance
-Indiana Jones and the Great Circle has received some recent negative attention for having relatively beefy system requirements, including calling for GPUs that have some form of real-time ray-tracing acceleration. We tested the game on a system with an Nvidia RTX 2080 Ti and an Intel i7-8700K CPU with 32 GB of RAM, which puts it roughly between the "minimum" and "recommended" specs suggested by the publisher.
+Users with Away Messages up appeared with a little yellow sticky note next to their screen names on AIM's "Buddy List," showing that they were online but not actually around. If you sent a message to someone with an Away Message up, you'd get an instant response notifying you of that fact. You could also set up an Away Message to go up automatically if your computer was idle for too long, in case you stepped away from the computer without thinking.
 
 
-Trace those rays. Credit: Bethesda / MachineGames
-Despite this, we were able to run the game at 1440p resolution and "High" graphical settings at a steady 60 fps throughout. The game did occassionally suffer some heavy frame stuttering when loading new scenes, and far-off background elements had a tendency to noticeably "pop in" when running, but otherwise, we had few complaints about the graphical performance.
+Getting creative
+Away Messages could be customized for the situation and saved for later use. A lot of the early Away Message use in my group of friends was merely functional: "Away at class," or "I'm asleep," or "I'm hanging out down the hall, come join us!" People soon began using their Away Messages as a form of creative self-expression. "Sleeping the sleep of the just (plain exhausted)" was a favorite, as was "Hi ho, hi ho, it's off to class I go." People would also throw up song lyrics, poem quotes, or complete non-sequiturs in lieu of actual information about their whereabouts. I'm sure I had a few Space Ghost: Coast to Coast Away Messages that confused a good deal of my friends.
+
+
+If you really wanted to get creative with your online persona, though, you had to dive into your AIM profile. This was where you could post text and links that were a little more permanent than an Away Message and available whenever the account was online (which was more-or-less all the time, thanks the brave new world of the campus' broadband network). Seeing a user's profile took a little more work than seeing an Away Message, though; you had to right-click on the username and choose "View Profile" to bring them up one by one (this menu option also let you view the details of an Away Message without having to send an actual message).
+
+
+While some people kept their profiles unedited for years, many used it as a Twitter-like running diary. One of my friends kept a constantly updated "Thought of the Day" with one-liners picked from overheard quotes and remembered readings. Some used it to post shout-outs to best friends or throw passive-aggressive shade against some unnamed member of the group (but you knew who they were talking about). I often used the space to link to recent photos taken with my first digital camera or game reviews and stories I had published in the student newspaper. Overuse of fancy fonts, colors, and emoticons turned plenty of AIM profiles into crimes against graphic design.
+
+
+Profile stalking
+For much of college, the first thing I would do when I sat down at the computer was go down my AIM friends list and check the profiles and Away Messages to see what was new with everyone. Scanning through profile pages became an easy way to procrastinate when writing a dull paper late at night, presaging the compulsion of scanning Twitter to distract from any sort of boredom (though there was no easy way to quickly figure out which AIM profiles had been updated, meaning you re-read plenty of "old" updates).
+
+
+Well before Facebook-stalking was a thing, "profile stalking" became slang in my group of friends for any Instant Messenger contact that you didn't talk to but checked up on through the "View Profile" menu. My parents eventually used my frequent profile updates as a sign that I was alive when I hadn't bothered to call home in a few days. At least one of my fellow dorm residents set up a second AIM account just for his friends after his parents started asking him about the risqué content he shared on his profile.
+
+
+The most striking thing about the profile page, though, was how ephemeral it all was. With limited space to work with, posting something new in your profile usually meant deleting something old (there was even a brief trend of people using "SubProfile" software to slightly expand their profile posting space). AOL Instant Messenger didn't have any built-in way to store old profiles, either. Like Snapchat images, old profiles were not meant to be cherished and archived online but to be thrown to the digital abyss after a while. Today, people who use automated tools to delete old tweets know that there were some benefits to this design.
+
+
+It seems quaint now, in a world where the US president broadcasts his every thought to millions via social media. After I graduated college, tools like Facebook and Twitter quickly replaced the functions that used to be filled by AIM profile stalking, and programs like Google Chat and text messaging replaced the direct communication portion (especially as more mobile phone providers started offering unlimited SMS plans). Though I still have my AIM account online and connected via Trillian, very few people use it to contact me these days.
+
+
+Looking back years later, though, it's funny to think how AOL almost certainly didn't intend for Instant Messenger to be used the way me and my friends used it. As the name implies, the program was created as a way for users to send short, "instant" text messages to each other. That was useful, of course, but it was the secondary features—the Away Messages and profiles—that let AIM evolve into much more for a group of early 2000s college kids learning to use an always-on Internet connection for the first time.
+
+
+As the world says goodbye to AIM over the next few months, I'll remember it for my first taste of how the Internet could enable asynchronous self-expression and personal broadcasting amid a tight-knit social group.
+
+
+
+
+ARS TECHNICA TEXT 5
+As someone who has been following the growth of generative AI for a while now, I know that the technology can be pretty good (if not quite human-level) at quickly summarizing complex documents into a more digestible form. But I still wasn't prepared for how disarmingly compelling it would be to listen to Google's NotebookLM condense my recent book about Minesweeper into a tight, 12.5-minute, podcast-style conversation between two people who don't exist.
+
+
+There are still enough notable issues with NotebookLM's audio output to prevent it from fully replacing professional podcasters any time soon. Even so, the podcast-like format is an incredibly engaging and endearing way to take in complex information and points to a much more personable future for generative AI than the dry back-and-forth of a text-based chatbot.
+
+
+Hey! Listen!
+Google's NotebookLM launched over a year ago as "a virtual research assistant that can summarize facts, explain complex ideas, and brainstorm new connections—all based on the sources you select." Just last week, though, Google added the new "Audio Overview" feature that it's selling as "a new way to turn your documents into engaging audio discussions."
+
+
+Google doesn't use the word "podcast" anywhere in that announcement, instead talking up audio creations that "summarize your material, make connections between topics, and banter back and forth." But Wharton AI professor Ethan Mollick correctly referred to the style as a "podcast" in a recent social media post sharing a NotebookLM Audio Overview of his book. Mollick called these Audio Summaries "the current best 'wow this is amazing & useful' demo of AI" and "unnerving, too," and we agree on both counts.
+
+
+Inspired by Mollick's post, I decided to feed my own book into NotebookLM to see what its virtual "podcasters" would make of 30,000 or so words about '90s Windows gaming classic Minesweeper (believe it or not, I could have written much more). Just a few minutes later, I was experiencing a reasonable facsimile of what it would be like if I was featured on NPR's Pop Culture Happy Hour or a similar banter-filled podcast.
+
+
+Just the facts?
+NotebookLM's summary hits on all the book's major sections: the pre-history of the games that inspired Minesweeper; the uphill battle for the Windows Entertainment Pack at a business-focused Microsoft of the '90s; the moral panic over the game's pre-installation on millions of business and government computers; and the surprising cheating controversies that surrounded the game's competitive scene.
+
+
+Sure, I could quibble about which specific bits the summary decided to focus on and/or leave out (maybe feeding different chapters individually would have led to more detail in the collected summaries). But anyone listening to this "podcast" would get the same general overview of my book that they would listening to one of the many actual podcasts that I did after the book launched.
+While there weren't any full-blown, whole-cloth hallucinations in NotebookLM's summary "podcast," there were a few points where it got small details wrong or made assumptions that weren't supported in the text. Discussing Minesweeper predecessor Mined-Out, for instance, NotebookLM's audio summary says, "So this is where those squares and flags start to come into play..." even though Mined-Out had neither feature.
+
+
+Then there's the portion where the summary-cast mentions a senator who called Minesweeper "a menace to the republic," repeating the quote for emphasis. That definitely captures the spirit of Senator Lauch Faircloth's tirade against Minesweeper and other games being pre-installed on government computers. In the "podcast" context, though, it sounds like the voices are putting words in Faircloth's mouth by sharing a direct quote.
+
+
+Small, overzealous errors like these—and a few key bits of the book left out of the podcast entirely—would give me pause if I were trying to use a NotebookLM summary as the basis for a scholarly article or piece of journalism. But I could see using a summary like this to get some quick Cliff's Notes-style grounding on a thick tome I didn't have the time or inclination to read fully. And, unlike poring through Cliff's Notes, the pithy, podcast-style format would actually make for enjoyable background noise while out on a walk or running errands.
+
+
+It’s all in the delivery
+It's that naturalistic, bantering presentation that makes NotebookLM's new feature stand out from other AI products that generate capable text summaries. I felt like I was eavesdropping on two people who just happened to be discussing my book in a cafe, except those people don't actually exist (and were probably algorithmically designed to praise the book).
+
+
+Right from the start, I was tickled by the way one "podcast host" described the book as a tale from "the land of floppy disks and dial-up modems" (a phrase I did not use in the book). That same voice goes on to tease "a bit of Bill Gates sneaking around the Microsoft office," up front, hinting at my absolute favorite anecdote from the book before fully exploring it later in the summary.
+
+
+When they do get to that anecdote, the fake podcast hosts segue in with what feels like a natural conversational structure:
+
+
+Voice 1: It's hard to deny the impact of something when your own CEO is secretly hooked.
+Voice 2: Wait, are we talking about Bill Gates?
+
+
+The back-and-forth style of the two-person "podcast" format allows for some entertaining digressions from the main point of the book, too. When discussing the wormy movie-star damsel-in-distress featured in Minesweeper predecessor Mined-Out, for instance, the AI summarizers seem to get a little distracted:
+
+
+Voice 1: I have to ask, what kind of movies does a worm even star in?
+Voice 2: I'm afraid that detail has been lost to the sands of gaming history.
+
+
+Then there's the casual way the two "hosts" bring up the improved versions of Minesweeper that were crafted to fix problems with Microsoft's original:
+
+
+Voice 1: So eventually the community came up with a more elegant solution.
+Voice 2: Let me guess. They created a new version of Minesweeper.
+Voice 1: Exactly.
+Voice 2: Called it a day on the old one.
+
+
+The two-person format helps foster a gentle, easy rhythm to the presentation of dense information, with natural-sounding pauses and repetition that help emphasize key points. When one ersatz podcaster talks about the phenomenon of "this incredibly addictive puzzle game [being] pre-installed on practically every computer," for instance, the other voice can answer back with the phrase "on every computer" with just the right amount of probing interest. Or when one AI voice intones that "it was discovered that the original Minesweeper had a flaw in how it generated random boards," the other voice jumps in and exclaims "A flaw!" with pitch-perfect timing and a sense of surprise.
+
+
+Wait, are we talking about Bill Gates?
+NotebookLM podcast voice
+There are some problems with this back-and-forth style, though. For one, both voices seem to alternate between the "I read the book" role and the "I'm surprised at these book facts you're sharing" role, making it hard to feel like either one is genuine. For another, the sheer volume of surprised reactions (a partial sample: "What? No! Wooooow! You're kidding! No way! You're blowing my mind here!") can get a little grating. And then there are the sentences that pause at the wrong points or the bits of laughter that feel like an editor chopped them off prematurely.
+
+
+Still, when one fake podcast voice cooed, "Oh, do tell!" in response to the idea of controversy in competitive Minesweeper, it set off the same parasocial relationship buttons that a good, authentic podcast can (while also effectively flattering my sense of authorial ego).
+
+
+After listening to NotebookLM's summary of my own book, I can easily envision a near future where these "fake" podcasts become a part of my real podcast diet, especially for books or topics that are unlikely to get professional interest from human podcasters. By repackaging generative AI text into a "just two people chatting" format, Google has put a much more amiable face on what can sometimes seem like a dehumanizing technology.
